@@ -1,0 +1,7799 @@
+==========[ MODULE 547 ]==========
+EXPORT: A
+   _initialize
+   _terminate
+
+==========[ MODULE 1195 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 3137 ]==========
+EXPORT: A
+   initialize
+   getUserAgnosticState
+   isEnabled
+
+==========[ MODULE 4227 ]==========
+EXPORT: A
+   getPurchase
+   getPurchases
+
+==========[ MODULE 6494 ]==========
+EXPORT: A
+   setActive
+   setEnabled
+   setSelectedStream
+   setFocusedStream
+   setMirrored
+   setPipAspectRatio
+   refreshPipUi
+   updateSourceTrackingView
+   addOnPipModeChangedListener
+   addOnPipModeWillChangeListener
+   isEnabled
+   isSupported
+   isInPipMode
+
+==========[ MODULE 8880 ]==========
+EXPORT: A
+   initialize
+   isSpeakingMessage
+   getUserAgnosticState
+
+==========[ MODULE 9842 ]==========
+EXPORT: A
+   initialize
+   getMessageByReference
+   getMessage
+   getReplyIdsForChannel
+
+==========[ MODULE 10088 ]==========
+EXPORT: A
+   getState
+   getHighestState
+
+==========[ MODULE 10716 ]==========
+EXPORT: A
+   initialize
+   getState
+   getIsEnabled
+   getLastUsedObject
+   getUseActivityUrlOverride
+   getActivityUrlOverride
+   getFetchState
+   getFilter
+   getDeveloperShelfItems
+   inDevModeForApplication
+
+==========[ MODULE 11550 ]==========
+EXPORT: A
+   initialize
+   getGuildEventNoticeDismissalTime
+   getAllEventDismissals
+   getUpcomingNoticeSeenTime
+   getAllUpcomingNoticeSeenTimes
+   getState
+
+==========[ MODULE 17159 ]==========
+EXPORT: A
+   _initialize
+   _terminate
+   handleMessageLengthUpsell
+   openPremiumPaymentModalInApp
+   openPremiumPaymentModalInOverlay
+
+==========[ MODULE 18683 ]==========
+EXPORT: A
+   _initialize
+   _terminate
+
+==========[ MODULE 20683 ]==========
+EXPORT: customElements
+   define
+   get
+   getName
+   upgrade
+   whenDefined
+   initialize
+EXPORT: history
+   back
+   forward
+   go
+   pushState
+   replaceState
+EXPORT: navigation
+   back
+   entries
+   forward
+   navigate
+   reload
+   traverseTo
+   updateCurrentEntry
+EXPORT: navigator
+   getGamepads
+   javaEnabled
+   sendBeacon
+   vibrate
+   adAuctionComponents
+   runAdAuction
+   canLoadAdAuctionFencedFrame
+   clearAppBadge
+   getBattery
+   getUserMedia
+   requestMIDIAccess
+   requestMediaKeySystemAccess
+   setAppBadge
+   webkitGetUserMedia
+   clearOriginJoinedAdInterestGroups
+   createAuctionNonce
+   joinAdInterestGroup
+   leaveAdInterestGroup
+   updateAdInterestGroups
+   deprecatedReplaceInURN
+   deprecatedURNToURL
+   getInstalledRelatedApps
+   getInterestGroupAdAuctionData
+   registerProtocolHandler
+   unregisterProtocolHandler
+EXPORT: external
+   AddSearchProvider
+   IsSearchProviderInstalled
+EXPORT: clientInformation
+   getGamepads
+   javaEnabled
+   sendBeacon
+   vibrate
+   adAuctionComponents
+   runAdAuction
+   canLoadAdAuctionFencedFrame
+   clearAppBadge
+   getBattery
+   getUserMedia
+   requestMIDIAccess
+   requestMediaKeySystemAccess
+   setAppBadge
+   webkitGetUserMedia
+   clearOriginJoinedAdInterestGroups
+   createAuctionNonce
+   joinAdInterestGroup
+   leaveAdInterestGroup
+   updateAdInterestGroups
+   deprecatedReplaceInURN
+   deprecatedURNToURL
+   getInstalledRelatedApps
+   getInterestGroupAdAuctionData
+   registerProtocolHandler
+   unregisterProtocolHandler
+EXPORT: styleMedia
+   matchMedium
+EXPORT: scheduler
+   postTask
+   yield
+EXPORT: performance
+   clearMarks
+   clearMeasures
+   clearResourceTimings
+   getEntries
+   getEntriesByName
+   getEntriesByType
+   mark
+   measure
+   setResourceTimingBufferSize
+   toJSON
+   now
+EXPORT: trustedTypes
+   createPolicy
+   getAttributeType
+   getPropertyType
+   getTypeMapping
+   isHTML
+   isScript
+   isScriptURL
+EXPORT: crypto
+   getRandomValues
+   randomUUID
+EXPORT: indexedDB
+   cmp
+   databases
+   deleteDatabase
+   open
+EXPORT: crashReport
+   delete
+   initialize
+   set
+EXPORT: cookieStore
+   delete
+   get
+   getAll
+   set
+EXPORT: caches
+   delete
+   has
+   keys
+   match
+   open
+EXPORT: documentPictureInPicture
+   requestWindow
+EXPORT: sharedStorage
+   append
+   clear
+   delete
+   set
+   batchUpdate
+   createWorklet
+   run
+   selectURL
+EXPORT: launchQueue
+   setConsumer
+EXPORT: speechSynthesis
+   cancel
+   getVoices
+   pause
+   resume
+   speak
+EXPORT: __zod_globalRegistry
+   add
+   clear
+   remove
+   get
+   has
+EXPORT: OGVCompat
+   hasTypedArrays
+   hasWebAssembly
+   hasWebAudio
+   hasFlash
+   hasAudio
+   isBlacklisted
+   isSlow
+   isTooSlow
+   supported
+EXPORT: OGVLoader
+   getGlobal
+   defaultBase
+   loadClass
+   loadScript
+   workerProxy
+
+==========[ MODULE 23667 ]==========
+EXPORT: A
+   create
+
+==========[ MODULE 25639 ]==========
+EXPORT: A
+   initialize
+   getAnimationStyle
+   getUserCount
+
+==========[ MODULE 26909 ]==========
+EXPORT: Ay
+   initialize
+   getState
+   hasPendingUsage
+   getCommandFrecencyWithoutLoadingLatest
+   getScoreWithoutLoadingLatest
+   getTopCommandsWithoutLoadingLatest
+
+==========[ MODULE 27650 ]==========
+EXPORT: customElements
+   define
+   get
+   getName
+   upgrade
+   whenDefined
+   initialize
+EXPORT: history
+   back
+   forward
+   go
+   pushState
+   replaceState
+EXPORT: navigation
+   back
+   entries
+   forward
+   navigate
+   reload
+   traverseTo
+   updateCurrentEntry
+EXPORT: navigator
+   getGamepads
+   javaEnabled
+   sendBeacon
+   vibrate
+   adAuctionComponents
+   runAdAuction
+   canLoadAdAuctionFencedFrame
+   clearAppBadge
+   getBattery
+   getUserMedia
+   requestMIDIAccess
+   requestMediaKeySystemAccess
+   setAppBadge
+   webkitGetUserMedia
+   clearOriginJoinedAdInterestGroups
+   createAuctionNonce
+   joinAdInterestGroup
+   leaveAdInterestGroup
+   updateAdInterestGroups
+   deprecatedReplaceInURN
+   deprecatedURNToURL
+   getInstalledRelatedApps
+   getInterestGroupAdAuctionData
+   registerProtocolHandler
+   unregisterProtocolHandler
+EXPORT: external
+   AddSearchProvider
+   IsSearchProviderInstalled
+EXPORT: clientInformation
+   getGamepads
+   javaEnabled
+   sendBeacon
+   vibrate
+   adAuctionComponents
+   runAdAuction
+   canLoadAdAuctionFencedFrame
+   clearAppBadge
+   getBattery
+   getUserMedia
+   requestMIDIAccess
+   requestMediaKeySystemAccess
+   setAppBadge
+   webkitGetUserMedia
+   clearOriginJoinedAdInterestGroups
+   createAuctionNonce
+   joinAdInterestGroup
+   leaveAdInterestGroup
+   updateAdInterestGroups
+   deprecatedReplaceInURN
+   deprecatedURNToURL
+   getInstalledRelatedApps
+   getInterestGroupAdAuctionData
+   registerProtocolHandler
+   unregisterProtocolHandler
+EXPORT: styleMedia
+   matchMedium
+EXPORT: scheduler
+   postTask
+   yield
+EXPORT: performance
+   clearMarks
+   clearMeasures
+   clearResourceTimings
+   getEntries
+   getEntriesByName
+   getEntriesByType
+   mark
+   measure
+   setResourceTimingBufferSize
+   toJSON
+   now
+EXPORT: trustedTypes
+   createPolicy
+   getAttributeType
+   getPropertyType
+   getTypeMapping
+   isHTML
+   isScript
+   isScriptURL
+EXPORT: crypto
+   getRandomValues
+   randomUUID
+EXPORT: indexedDB
+   cmp
+   databases
+   deleteDatabase
+   open
+EXPORT: crashReport
+   delete
+   initialize
+   set
+EXPORT: cookieStore
+   delete
+   get
+   getAll
+   set
+EXPORT: caches
+   delete
+   has
+   keys
+   match
+   open
+EXPORT: documentPictureInPicture
+   requestWindow
+EXPORT: sharedStorage
+   append
+   clear
+   delete
+   set
+   batchUpdate
+   createWorklet
+   run
+   selectURL
+EXPORT: launchQueue
+   setConsumer
+EXPORT: speechSynthesis
+   cancel
+   getVoices
+   pause
+   resume
+   speak
+EXPORT: __zod_globalRegistry
+   add
+   clear
+   remove
+   get
+   has
+EXPORT: OGVCompat
+   hasTypedArrays
+   hasWebAssembly
+   hasWebAudio
+   hasFlash
+   hasAudio
+   isBlacklisted
+   isSlow
+   isTooSlow
+   supported
+EXPORT: OGVLoader
+   getGlobal
+   defaultBase
+   loadClass
+   loadScript
+   workerProxy
+
+==========[ MODULE 28967 ]==========
+EXPORT: n
+   get
+   set
+   remove
+   clear
+   stringify
+   asyncGetRaw
+   getRaw
+   setRaw
+   getAfterRefresh
+
+==========[ MODULE 29496 ]==========
+EXPORT: A
+   getAssets
+
+==========[ MODULE 30108 ]==========
+EXPORT: Ay
+   handleVoiceChannelSelect
+   handleLogout
+   handlePlay
+   handleMute
+   handleVoiceStateUpdates
+   handleSetOutputVolume
+   handleToggleSelfDeaf
+
+==========[ MODULE 30370 ]==========
+EXPORT: A
+   isJoining
+   joinErrorMessage
+   isFetching
+   getAccounts
+   getLocalAccounts
+   getAccount
+   getLocalAccount
+   isSuggestedAccountType
+   addPendingAuthorizedState
+   deletePendingAuthorizedState
+   hasPendingAuthorizedState
+
+==========[ MODULE 30793 ]==========
+EXPORT: A
+   get
+   getError
+   getForGifterSKUAndPlan
+   getIsResolving
+   getIsResolved
+   getIsAccepting
+   getUserGiftCodesFetchingForSKUAndPlan
+   getUserGiftCodesLoadedAtForSKUAndPlan
+   getResolvingCodes
+   getResolvedCodes
+   getAcceptingCodes
+
+==========[ MODULE 31021 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 31498 ]==========
+EXPORT: Ay
+   once
+   EventEmitter
+   init
+   listenerCount
+
+==========[ MODULE 31717 ]==========
+EXPORT: A
+   initialize
+   getState
+   getThreadDraftWithParentMessageId
+   getRecentlyEditedDrafts
+   getDraft
+   getThreadSettings
+   getScheduledMessage
+
+==========[ MODULE 33006 ]==========
+EXPORT: default
+   getPort
+   handleRequest
+   handleConnection
+   handleMessage
+
+==========[ MODULE 34162 ]==========
+EXPORT: A
+   initialize
+   getGuildMediaState
+
+==========[ MODULE 38181 ]==========
+EXPORT: A
+   getLastFetchTimeMs
+   getCategories
+   getCategory
+
+==========[ MODULE 38502 ]==========
+EXPORT: A
+   initialize
+   getState
+   getLayouts
+   getLayout
+   getAllWidgets
+   getWidget
+   getWidgetsForLayout
+   getAllUnpinnedPinnedWidgets
+   getWidgetConfig
+   getWidgetDefaultSettings
+   getWidgetType
+   getWidgetsByType
+   getWidgetsByTypeAndLayout
+   getRegisteredWidgets
+   getDefaultLayout
+
+==========[ MODULE 39938 ]==========
+EXPORT: A
+   initialize
+   isMuted
+   shouldPlay
+   getUserAgnosticState
+
+==========[ MODULE 40169 ]==========
+EXPORT: A
+   _initialize
+   _terminate
+
+==========[ MODULE 41237 ]==========
+EXPORT: A
+   getStickerById
+   stateWrapper
+
+==========[ MODULE 45494 ]==========
+EXPORT: A
+   initialize
+   getCanLoadMore
+   getNextOffset
+   getIsInitialLoad
+   isLoading
+   getThreads
+
+==========[ MODULE 45773 ]==========
+EXPORT: A
+   initialize
+   databaseName
+   database
+   carefullyOpenDatabase
+   replaceDisableAllDatabases
+   remove
+   handleClearCaches
+   handleConnectionOpen
+   handleAuthenticationStoreChanged
+   carefullySpeculativelyOpen
+
+==========[ MODULE 47407 ]==========
+EXPORT: A
+   createFromServer
+   supportsOutOfProcessOverlay
+
+==========[ MODULE 49431 ]==========
+EXPORT: A
+   onPostConnectionOpen
+
+==========[ MODULE 53656 ]==========
+EXPORT: default
+   initialize
+   hasChanges
+   getErrors
+   getSection
+   getSectionId
+   getIntegration
+   getWebhook
+   isFetching
+   showNotice
+   getApplication
+
+==========[ MODULE 53857 ]==========
+EXPORT: A
+   initialize
+   getCurrentRouteType
+   getMultipleRoutesAvailable
+
+==========[ MODULE 56400 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 59784 ]==========
+EXPORT: A
+   getInvite
+   getInviteByUserId
+   getInviteState
+   shouldFetch
+   isFetching
+   hasFetchedAllInvites
+   isFetchingAllInvites
+
+==========[ MODULE 59892 ]==========
+EXPORT: GB
+   clone
+   parseDate
+   parse
+EXPORT: casual
+   clone
+   parseDate
+   parse
+EXPORT: configuration
+   createCasualConfiguration
+   createConfiguration
+EXPORT: strict
+   clone
+   parseDate
+   parse
+
+==========[ MODULE 61090 ]==========
+EXPORT: A
+   resumeTracing
+   mark
+   markAndLog
+   addImportLogDetail
+   markWithDelta
+   markAt
+   addDetail
+   time
+   timeAsync
+   setServerTrace
+
+==========[ MODULE 61881 ]==========
+EXPORT: A
+   initialize
+   getPendingWidgets
+   getSaveablePendingWidgets
+   hasPendingChanges
+   getWidgetUpdates
+   getChangedWidgets
+   getRemovedWidgets
+   hasUnsavedChanges
+   canSaveChanges
+
+==========[ MODULE 63238 ]==========
+EXPORT: A
+   initialize
+   getSubscribedThreadIds
+   isSubscribedToThreads
+   isSubscribedToAnyMember
+   isSubscribedToMemberUpdates
+   isSubscribedToAnyGuildChannel
+
+==========[ MODULE 63995 ]==========
+EXPORT: A
+   initialize
+   getParticipantsVersion
+   getMutableParticipants
+   getMutableRequestToSpeakParticipants
+   getRequestToSpeakParticipantsVersion
+   getParticipantCount
+   getChannels
+   getChannelsVersion
+   getParticipant
+
+==========[ MODULE 64585 ]==========
+EXPORT: A
+   _initialize
+   _terminate
+   setVolume
+   handleTypingStop
+   stopAudio
+   startAudio
+   playAchievementUnlockSound
+
+==========[ MODULE 65600 ]==========
+EXPORT: A
+   getQueryText
+   shouldShowBlockedResults
+   shouldShowNoResultsAlt
+   getSearchResultsQueryString
+   getSearchResultsQuery
+   getSearchMode
+   getSearchResultsOffset
+   getIsSearchTokensInitialized
+   getSearchStateIds
+
+==========[ MODULE 65995 ]==========
+EXPORT: A
+   getCompletedActions
+   hasCompletedActionForChannel
+   getState
+
+==========[ MODULE 67259 ]==========
+EXPORT: A
+   getAlsoSendToChannel
+
+==========[ MODULE 67480 ]==========
+EXPORT: A
+   initialize
+   get
+   getForApplication
+   isFetching
+   getFetchingSkuIds
+   getSKUs
+   getParentSKU
+   didFetchingSkuFail
+
+==========[ MODULE 67948 ]==========
+EXPORT: E
+   create
+   internalBinaryRead
+   internalBinaryWrite
+
+==========[ MODULE 70142 ]==========
+EXPORT: A
+   getClient
+   getPayPalClient
+   getVenmoClient
+   getLastURL
+
+==========[ MODULE 71319 ]==========
+EXPORT: A
+   initialize
+
+==========[ MODULE 71393 ]==========
+EXPORT: A
+   stateWrapper
+   getGuildCount
+
+==========[ MODULE 72314 ]==========
+EXPORT: A
+   percentageScrolled
+   getChannelDimensions
+   getGuildDimensions
+   getGuildListDimensions
+   isAtBottom
+
+==========[ MODULE 74399 ]==========
+EXPORT: A
+   initialize
+   getTemplates
+   getTemplateWithCategory
+   getChannel
+
+==========[ MODULE 79858 ]==========
+EXPORT: A
+   initialize
+   shouldShow
+   shouldShowAnyIndicators
+   getIndicators
+   getData
+   getDefinition
+
+==========[ MODULE 81009 ]==========
+EXPORT: A
+   onSwitchStart
+   onSwitchSuccess
+   onSwitchError
+   onSwitchComplete
+
+==========[ MODULE 82193 ]==========
+EXPORT: logger
+   enableNativeLogger
+
+==========[ MODULE 82293 ]==========
+EXPORT: A
+   getSimilarApplications
+   getFetchState
+
+==========[ MODULE 85109 ]==========
+EXPORT: A
+   initialize
+   getSavedMessages
+   getSavedMessage
+   getMessageBookmarks
+   getMessageReminders
+   getOverdueMessageReminderCount
+   hasOverdueReminder
+   getMostRecentOverdueDueAt
+   getSavedMessageCount
+   getIsStale
+   getLastChanged
+   isMessageBookmarked
+   isMessageReminder
+
+==========[ MODULE 88137 ]==========
+EXPORT: _valids
+   add
+   merge
+   remove
+   has
+   values
+   slice
+   concat
+EXPORT: _invalids
+   add
+   merge
+   remove
+   has
+   values
+   slice
+   concat
+EXPORT: extensionsSchema
+   _base
+   _checkItems
+   describe
+   items
+   ordered
+   min
+   max
+   length
+   unique
+   sparse
+   single
+   _fillMissedErrors
+   _fillOrderedErrors
+
+==========[ MODULE 89381 ]==========
+EXPORT: A
+   getSearchSessionId
+   isSessionActive
+   initialize
+   maybeTrackQueryEntered
+   terminate
+
+==========[ MODULE 90165 ]==========
+EXPORT: A
+   getGameDuration
+   getLastPlayedDateTime
+   hasApplicationStatistic
+   getCurrentUserStatisticsForApplication
+   getQuickSwitcherScoreForApplication
+
+==========[ MODULE 91242 ]==========
+EXPORT: A
+   getFrame
+   getMainFrame
+   getAllFrames
+   getFrameByIframeId
+   getFrameBySurface
+
+==========[ MODULE 91777 ]==========
+EXPORT: A
+   requestPermissionCore
+   hasPermissionCore
+   asyncify
+   openSettings
+   didHavePermission
+   openAlertModal
+
+==========[ MODULE 91868 ]==========
+EXPORT: A
+   initialize
+   getRows
+   getChannel
+
+==========[ MODULE 93474 ]==========
+EXPORT: A
+   initialize
+   getState
+   getMessage
+   getMessagesVersion
+   getMentionRaidDetected
+   getLastIncidentAlertMessage
+
+==========[ MODULE 93483 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 94247 ]==========
+EXPORT: A
+   initialize
+   getSpeaker
+
+==========[ MODULE 95701 ]==========
+EXPORT: nA
+   fromServer
+
+==========[ MODULE 97352 ]==========
+EXPORT: A
+   getPlanIdsForSkus
+   getFetchedSKUIDs
+   getForSKU
+   getForSkuAndInterval
+   get
+   isFetchingForSKU
+   isFetchingForSKUs
+   isLoadedForSKU
+   isLoadedForSKUs
+   isFetchingForPremiumSKUs
+   isLoadedForPremiumSKUs
+   ignoreSKUFetch
+   getPaymentSourcesForPlanId
+   getPaymentSourceIds
+   hasPaymentSourceForSKUId
+   hasPaymentSourceForSKUIds
+
+==========[ MODULE 99753 ]==========
+EXPORT: A
+   getFeeds
+   getFeed
+   getFeedState
+   getLastFeedFetchDate
+   getFilters
+   getFeedRequestId
+   getDebugImpressionCappingDisabled
+   getMatchingInboxEntry
+
+==========[ MODULE 101392 ]==========
+EXPORT: A
+   initialize
+   getSlowmodeCooldownGuess
+   isChannelOnCooldown
+
+==========[ MODULE 105565 ]==========
+EXPORT: A
+   getDCFEvents
+
+==========[ MODULE 105613 ]==========
+EXPORT: A
+   handlePostConnectionOpen
+
+==========[ MODULE 107563 ]==========
+EXPORT: A
+   get
+   getWishlist
+   getWishlistItems
+   hasSkuId
+   getStatus
+   isFetching
+   hasError
+   getError
+   getUpdatedAt
+   getLastFetchedAt
+
+==========[ MODULE 108110 ]==========
+EXPORT: OGVCompat
+   hasTypedArrays
+   hasWebAssembly
+   hasWebAudio
+   hasFlash
+   hasAudio
+   isBlacklisted
+   isSlow
+   isTooSlow
+   supported
+EXPORT: OGVLoader
+   getGlobal
+   defaultBase
+   loadClass
+   loadScript
+   workerProxy
+
+==========[ MODULE 108822 ]==========
+EXPORT: A
+   initialize
+
+==========[ MODULE 109447 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 111042 ]==========
+EXPORT: A
+   getLastFetchTimeMs
+   getFetchState
+   getCollections
+
+==========[ MODULE 111085 ]==========
+EXPORT: A
+   initialize
+   getState
+   hasSentGift
+   getSentGift
+   cleanupExpiredGifts
+
+==========[ MODULE 111162 ]==========
+EXPORT: default
+   initialize
+   getDebugOptionsHeaderValue
+   getRoutingKeyHeaderValue
+
+==========[ MODULE 115036 ]==========
+EXPORT: A
+   initialize
+   isHandoffAvailable
+
+==========[ MODULE 116956 ]==========
+EXPORT: A
+   initialize
+   getRTCConnections
+   getAllActiveStreamKeys
+   getRTCConnection
+   getQuality
+   getMediaSessionId
+   getRtcConnectionId
+   getVideoStats
+   getHostname
+   getRegion
+   getMaxViewers
+   getStreamSourceId
+   getLastNonZeroRemoteVideoSinkWantsTime
+   getUserIds
+   isUserConnected
+   getSecureFramesState
+   getSecureFramesRosterMapEntry
+
+==========[ MODULE 117787 ]==========
+EXPORT: A
+   handleVoiceChannelSelect
+   handleCallCreate
+   handleUserSettingsModalOpen
+
+==========[ MODULE 119966 ]==========
+EXPORT: G
+   captureStackTrace
+   isError
+
+==========[ MODULE 121780 ]==========
+EXPORT: A
+   getCountryCode
+
+==========[ MODULE 122906 ]==========
+EXPORT: A
+   getGuildTemplate
+   getGuildTemplates
+   getForGuild
+   getDisplayedGuildTemplateCode
+
+==========[ MODULE 125075 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 125831 ]==========
+EXPORT: A
+   initialize
+   getState
+   getTopSoundboardSoundIdsByGuildId
+   getIsFetching
+
+==========[ MODULE 127242 ]==========
+EXPORT: A
+   initialize
+   getDebuggingState
+   hasRenderDebugMode
+   getRenderDebugModes
+   getOverlayLoggingBreadcrumbs
+   isModuleLoggingEnabled
+   isStateDebuggingEnabled
+
+==========[ MODULE 127898 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 129014 ]==========
+EXPORT: default
+   connect
+   disconnect
+   subscribe
+   unsubscribe
+   request
+   requestOnce
+   requestRedirect
+
+==========[ MODULE 130100 ]==========
+EXPORT: A
+   initialize
+   shouldFetch
+   isFetching
+   getChannelAffinities
+   getChannelAffinitiesMap
+   getChannelAffinity
+   compare
+   getState
+
+==========[ MODULE 130553 ]==========
+EXPORT: A
+   _initialize
+   platformShowStreamFull
+   platformHandleStreamStart
+   platformHandleVoiceStateUpdate
+
+==========[ MODULE 131277 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 131677 ]==========
+EXPORT: A
+   initialize
+   getUnreadPrivateChannelIds
+
+==========[ MODULE 134861 ]==========
+EXPORT: A
+   isConnected
+   isChildConnected
+   getApplication
+   getAllConnections
+
+==========[ MODULE 137903 ]==========
+EXPORT: yW
+   initialize
+   destroy
+   getAll
+   removeAllConditionalListeners
+
+==========[ MODULE 138054 ]==========
+EXPORT: A
+   initialize
+   getState
+   getPendingConnection
+
+==========[ MODULE 138321 ]==========
+EXPORT: A
+   getInteractionComponentStates
+   getInteractionComponentStateVersion
+   getInteractionComponentState
+
+==========[ MODULE 140069 ]==========
+EXPORT: A
+   initialize
+   isChannelTracked
+   getSessionEntries
+   getSelectedChannelId
+   getVoiceChatMinimized
+
+==========[ MODULE 141931 ]==========
+EXPORT: Fh
+   captureStackTrace
+   isError
+
+==========[ MODULE 145643 ]==========
+EXPORT: A
+   initialize
+   getGuildRoleConnectionsConfiguration
+
+==========[ MODULE 147248 ]==========
+EXPORT: A
+   initialize
+   getState
+   getLinearGradient
+
+==========[ MODULE 147964 ]==========
+EXPORT: A
+   initialize
+   getTestModeApplicationId
+   inTestModeForApplication
+   inTestModeForEmbeddedApplication
+   shouldDisplayTestMode
+   getState
+   whenInitialized
+
+==========[ MODULE 148864 ]==========
+EXPORT: A
+   initialize
+   getUserAgnosticState
+   getCountryCode
+
+==========[ MODULE 151781 ]==========
+EXPORT: A
+   initialize
+   isInitialized
+   getMembersByGuildId
+   getMembersCountByGuildId
+   getEstimatedMemberSearchCountByGuildId
+   getKnownMemberSearchCountByGuildId
+   getCurrentMemberSearchResultsByGuildId
+   getSearchStateByGuildId
+   hasDefaultSearchStateByGuildId
+   getPagedMembersByGuildId
+   getPaginationStateByGuildId
+   getElasticSearchPaginationByGuildId
+   getEnhancedMember
+   getNewMemberTimestamp
+   getLastRefreshTimestamp
+   getLastCursorTimestamp
+
+==========[ MODULE 152007 ]==========
+EXPORT: A
+   initialize
+   hasJoined
+   joinTimestamp
+   flags
+   getInitialOverlayState
+   getMuteConfig
+   getMutedThreads
+   isMuted
+
+==========[ MODULE 153488 ]==========
+EXPORT: A
+   hasConsented
+   getAuthenticationConsentRequired
+
+==========[ MODULE 154323 ]==========
+EXPORT: A
+   getUserAgnosticState
+   initialize
+   get
+   enabled
+   allWithDescriptions
+
+==========[ MODULE 157016 ]==========
+EXPORT: V
+   __destroy_into_raw
+   free
+   connectStore
+   dispatchAction
+   flushReplicationStates
+   getRegisteredActionTypes
+   findStoresThatCanHandleActionType
+
+==========[ MODULE 157257 ]==========
+EXPORT: A
+   initialize
+   getGameForPID
+   getGame
+
+==========[ MODULE 157550 ]==========
+EXPORT: A
+   initialize
+   loadCache
+   takeSnapshot
+   getSpamChannelIds
+   getSpamChannelsCount
+   isSpam
+   isAcceptedOptimistic
+   isReady
+
+==========[ MODULE 157695 ]==========
+EXPORT: A
+   isFetchingQuestToDeliverByPlacement
+   canRefreshAd
+   isFetchingQuestHomeHero
+   getLastFetchedQuestHomeHero
+   getQuestHomeHero
+
+==========[ MODULE 161518 ]==========
+EXPORT: A
+   hasActiveErrorOfType
+   getActiveErrors
+   getActiveErrorsOfType
+
+==========[ MODULE 164956 ]==========
+EXPORT: A
+   initialize
+   hasViewingRoles
+   isViewingRoles
+   getViewingRoles
+   getViewingRolesTimestamp
+   getData
+   isFullServerPreview
+   isOptInEnabled
+   isOnboardingEnabled
+   getViewingChannels
+   getOnboardingResponses
+   getMemberOptions
+   isChannelOptedIn
+   isViewingServerShop
+   getImpersonateType
+   getBackNavigationSection
+
+==========[ MODULE 165685 ]==========
+EXPORT: A
+   handleConnectionOpen
+
+==========[ MODULE 166403 ]==========
+EXPORT: A
+   initialize
+   hasFetchedSubscriptions
+   hasFetchedMostRecentPremiumTypeSubscription
+   hasFetchedPreviousPremiumTypeSubscription
+   getPremiumSubscription
+   getPremiumTypeSubscription
+   getSubscriptions
+   getSubscriptionById
+   getActiveGuildSubscriptions
+   getActiveApplicationSubscriptions
+   getSubscriptionForPlanIds
+   getMostRecentPremiumTypeSubscription
+   getPreviousPremiumTypeSubscription
+   getIsSubscriptionEligibleForReward
+   getIsFetchingSubscriptionRewardEligibility
+   getIsFetchingMostRecentSubscription
+   getLastLazyPerkSync
+   getPremiumGroupSubscription
+
+==========[ MODULE 166590 ]==========
+EXPORT: A
+   fromServer
+
+==========[ MODULE 166862 ]==========
+EXPORT: A
+   initialize
+   getLastErrored
+   getAutocompleteChoices
+   getAutocompleteLastChoices
+   getLastResponseNonce
+
+==========[ MODULE 171950 ]==========
+EXPORT: A
+   handleVoiceChannelSelect
+   handleVoiceStateUpdates
+
+==========[ MODULE 173875 ]==========
+EXPORT: dataFormatterCache
+   getDateTimeFormatter
+   getDurationFormatter
+   getListFormatter
+   getNumberFormatter
+   getPluralRules
+   getRelativeTimeFormatter
+   _getCached
+   _getKey
+
+==========[ MODULE 174768 ]==========
+EXPORT: A
+   initialize
+   getState
+   isOpen
+   getResultTotals
+   channelNoticePredicate
+   getFrequentGuilds
+   getFrequentGuildsLength
+   getChannelHistory
+   getLastShowTimestamp
+   getProps
+
+==========[ MODULE 175182 ]==========
+EXPORT: dataFormatterCache
+   getDateTimeFormatter
+   getDurationFormatter
+   getListFormatter
+   getNumberFormatter
+   getPluralRules
+   getRelativeTimeFormatter
+   _getCached
+   _getKey
+
+==========[ MODULE 176095 ]==========
+EXPORT: A
+   getBalance
+   getIsFetching
+
+==========[ MODULE 176360 ]==========
+EXPORT: A
+   initialize
+   hasChanges
+   showNotice
+   getPermissionOverwrite
+
+==========[ MODULE 177141 ]==========
+EXPORT: Ay
+   initialize
+   hasNotice
+   getNotice
+   isNoticeDismissed
+
+==========[ MODULE 178368 ]==========
+EXPORT: A
+   initialize
+   getGuildBoostSlot
+
+==========[ MODULE 179689 ]==========
+EXPORT: FO
+   clearMarks
+   clearMeasures
+   clearResourceTimings
+   getEntries
+   getEntriesByName
+   getEntriesByType
+   mark
+   measure
+   setResourceTimingBufferSize
+   toJSON
+   now
+
+==========[ MODULE 181079 ]==========
+EXPORT: A
+   initialize
+   getFavoriteChannels
+   isFavorite
+   isChannelOrParentFavorited
+   getFavorite
+   getCategoryRecord
+   getNickname
+   getFavoritesCount
+   getFavoritesCountAgainstLimit
+   hasStoredFavorites
+
+==========[ MODULE 184809 ]==========
+EXPORT: default
+   initialize
+   getState
+   isLocked
+   isInstanceLocked
+   isInstanceFocused
+   isFocused
+   isPinned
+   getSelectedGuildId
+   getSelectedChannelId
+   getSelectedCallId
+   getDisplayUserMode
+   getDisplayNameMode
+   getAvatarSizeMode
+   getNotificationPositionMode
+   getDisableExternalLinkAlert
+   getFocusedPID
+   getActiveRegions
+   getTextWidgetOpacity
+   isPreviewingInGame
+   getTrackedGame
+
+==========[ MODULE 184989 ]==========
+EXPORT: A
+   allGuildIds
+   isMember
+   handleConnectionOpen
+   handleCacheLoaded
+   handleCacheLoadedLazy
+   handleGuildCreate
+   handleGuildDelete
+
+==========[ MODULE 185522 ]==========
+EXPORT: A
+   fetchForViewport
+   hasMoreConversations
+   isBackoffPending
+   getOrCreateBackoffState
+   armBackoff
+   clearBackoff
+   retryAfterBackoff
+   reset
+   isAnchorOutsideBuffer
+   countBuffer
+
+==========[ MODULE 185657 ]==========
+EXPORT: A
+   initialize
+   getRows
+   getFriend
+
+==========[ MODULE 186111 ]==========
+EXPORT: A
+   hasLayers
+   getLayers
+
+==========[ MODULE 186427 ]==========
+EXPORT: A
+   getOverlayFPSLimit
+   getMainWindowFPSLimit
+
+==========[ MODULE 186693 ]==========
+EXPORT: casual
+   clone
+   parseDate
+   parse
+EXPORT: strict
+   clone
+   parseDate
+   parse
+
+==========[ MODULE 187548 ]==========
+EXPORT: A
+   handleVoiceChannelSelect
+   handleVoiceStateUpdates
+   findAndWatchStream
+
+==========[ MODULE 189081 ]==========
+EXPORT: A
+   initialize
+   getAllLibraryApplications
+   hasLibraryApplication
+   hasApplication
+   getLibraryApplication
+   getActiveLibraryApplication
+   isUpdatingFlags
+   getActiveLaunchOptionId
+   whenInitialized
+
+==========[ MODULE 196492 ]==========
+EXPORT: A
+   _initialize
+   _terminate
+   handleModalOpen
+   handleModalClose
+
+==========[ MODULE 198052 ]==========
+EXPORT: A
+   initialize
+   getState
+   getParticipantsVersion
+   getParticipants
+   getSpeakingParticipants
+   getFilteredParticipants
+   getVideoParticipants
+   getStreamParticipants
+   getActivityParticipants
+   getParticipant
+   getUserParticipantCount
+   getParticipantsOpen
+   getVoiceParticipantsHidden
+   getSelectedParticipantId
+   getSelectedParticipant
+   getSelectedParticipantStats
+   getGuildRingingUsers
+   getMode
+   getLayout
+   getChatOpen
+   getOpenChatChannelIds
+   isFullscreenInContext
+   getStageStreamSize
+   getStageVideoLimitBoostUpsellDismissed
+   isParticipantPoppedOut
+
+==========[ MODULE 199160 ]==========
+EXPORT: A
+   getMessagesPendingDeletion
+   getScheduledMessagesForInbox
+
+==========[ MODULE 199773 ]==========
+EXPORT: A
+   initialize
+   getState
+   getRenderedAtTimestamp
+   hasUserHitDCCap
+
+==========[ MODULE 199944 ]==========
+EXPORT: A
+   handlePostConnectionOpen
+   handleLogout
+
+==========[ MODULE 202613 ]==========
+EXPORT: A0
+   createFromServer
+   createFromSerialized
+EXPORT: EE
+   createFromServer
+   createFromSerialized
+EXPORT: FQ
+   createFromServer
+   createFromSerialized
+EXPORT: F_
+   createFromServer
+   createFromSerialized
+EXPORT: IE
+   createFromServer
+   createFromSerialized
+EXPORT: LQ
+   createFromServer
+   createFromSerialized
+EXPORT: Pw
+   createFromServer
+   createFromSerialized
+EXPORT: Qh
+   createFromServer
+   createFromSerialized
+EXPORT: SJ
+   createFromServer
+   createFromSerialized
+EXPORT: Tu
+   createFromServer
+   createFromSerialized
+EXPORT: UG
+   createFromServer
+   createFromSerialized
+EXPORT: Ux
+   createFromServer
+   createFromSerialized
+EXPORT: Xj
+   createFromServer
+   createFromSerialized
+EXPORT: YS
+   createFromServer
+   createFromSerialized
+EXPORT: _1
+   createFromServer
+   createFromSerialized
+EXPORT: am
+   createFromServer
+   createFromSerialized
+EXPORT: cg
+   createFromServer
+   createFromSerialized
+EXPORT: i6
+   createFromServer
+   createFromSerialized
+EXPORT: rJ
+   createFromServer
+   createFromSerialized
+
+==========[ MODULE 203632 ]==========
+EXPORT: Ay
+   fromServer
+
+==========[ MODULE 205761 ]==========
+EXPORT: A
+   initialize
+   getState
+   hasPendingUsage
+   getFrequentlyWithoutFetchingLatest
+   getScoreWithoutFetchingLatest
+   getScoreForDMWithoutFetchingLatest
+   getMaxScore
+   getBonusScore
+   getVersion
+
+==========[ MODULE 207777 ]==========
+EXPORT: A
+   initialize
+   getNewThreadCount
+   getCanAckThreads
+   getThreadIds
+   getCurrentThreadIds
+   getAndDeleteMostRecentUserCreatedThreadId
+   getFirstNoReplyThreadId
+
+==========[ MODULE 207970 ]==========
+EXPORT: tH
+   captureStackTrace
+   isError
+
+==========[ MODULE 209932 ]==========
+EXPORT: A
+   initialize
+   getOverlaySerializedState
+   getSounds
+   getSoundsForGuild
+   getSound
+   getSoundById
+   isFetchingSounds
+   isFetchingDefaultSounds
+   isFetching
+   shouldFetchDefaultSounds
+   hasFetchedDefaultSounds
+   isUserPlayingSounds
+   isPlayingSound
+   isFavoriteSound
+   getFavorites
+   getFrequentlyUsedSoundIds
+   getTopSoundboardSoundsMetadata
+   getTopSoundboardSoundIds
+   hasPendingUsage
+   isLocalSoundboardMuted
+   isSoundboardVolumeMuted
+   hasHadOtherUserPlaySoundInSession
+   hasFetchedAllSounds
+   isFetchingAnySounds
+
+==========[ MODULE 210528 ]==========
+EXPORT: A
+   isProtocolRegistered
+
+==========[ MODULE 212455 ]==========
+EXPORT: A
+   initialize
+   getRequest
+   computeGuildIds
+   getJoinRequestGuild
+   hasJoinRequestCoackmark
+
+==========[ MODULE 212534 ]==========
+EXPORT: A
+   getApplication
+   getApplicationRecord
+   getApplications
+   getApplicationFetchState
+   getApplicationFetchStates
+   isInvalidApplication
+   getInvalidApplicationIds
+   isFetching
+   getApplicationLastFetchTime
+
+==========[ MODULE 214598 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 214771 ]==========
+EXPORT: A
+   getCommittedVersions
+   handleConnectionOpen
+   resetInMemoryState
+
+==========[ MODULE 214787 ]==========
+EXPORT: A
+   _initialize
+   _terminate
+   isLivingRoomAvailable
+   apply
+
+==========[ MODULE 216583 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 219065 ]==========
+EXPORT: A
+   initialize
+   getMemberListVersion
+   getMemberListSections
+   canUserViewChannel
+
+==========[ MODULE 221799 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 222506 ]==========
+EXPORT: A
+   initialize
+   isInputLocked
+
+==========[ MODULE 226459 ]==========
+EXPORT: A
+   preloadInbox
+   _terminate
+
+==========[ MODULE 228366 ]==========
+EXPORT: h
+   isDispatching
+   dispatch
+   dispatchForStoreTest
+   flushWaitQueue
+   _dispatchWithDevtools
+   _dispatchWithLogging
+   _dispatch
+   addInterceptor
+   wait
+   subscribe
+   unsubscribe
+   register
+   createToken
+   addDependencies
+
+==========[ MODULE 232582 ]==========
+EXPORT: ih
+   create
+   internalBinaryRead
+   internalBinaryWrite
+
+==========[ MODULE 232835 ]==========
+EXPORT: A
+   initialize
+   getMessages
+   getMessage
+   getLastEditableMessage
+   getLastChatCommandMessage
+   getLastMessage
+   getLastNonCurrentUserMessage
+   jumpedMessageId
+   focusedMessageId
+   hasPresent
+   isReady
+   whenReady
+   isLoadingMessages
+   hasCurrentUserSentMessage
+   hasCurrentUserSentWaveBlockingMessage
+   hasCurrentUserSentMessageSinceAppStart
+
+==========[ MODULE 233317 ]==========
+EXPORT: A
+   initialize
+   getMembers
+   isFetchingMembers
+   isUpdatingMembers
+   hasFetchedMembers
+   getMembership
+   isFetchingMembership
+   hasFetchedMembership
+   getNumUsedSeats
+   getNumAvailableInvites
+   getNumTotalSeats
+
+==========[ MODULE 236285 ]==========
+EXPORT: Ay
+   initialize
+   getState
+   hasPendingUsage
+   getGuildEmoji
+   getHiddenEmojiIds
+   getUsableGuildEmoji
+   getGuilds
+   getDisambiguatedEmojiContext
+   getSearchResultsOrder
+   searchWithoutFetchingLatest
+   getUsableCustomEmojiById
+   getCustomEmojiById
+   getTopEmoji
+   getNewlyAddedEmoji
+   getTopEmojisMetadata
+   hasUsableEmojiInAnyGuild
+   hasFavoriteEmojis
+
+==========[ MODULE 243264 ]==========
+EXPORT: A
+   getResults
+   getClosestResults
+   shouldSuppressFetch
+   isFetching
+   getGameById
+
+==========[ MODULE 244696 ]==========
+EXPORT: A
+   initialize
+   getGuildThemeSnapshot
+
+==========[ MODULE 247254 ]==========
+EXPORT: A
+   handlePostConnectionOpen
+   maybeOpenQuickBar
+   handleClipsReminder
+   showClipsToast
+   applyNativeClipsSettings
+   handleClipsInitOnToggleDetection
+   handleClipsInitOnGamesChange
+   prefetchRichPresenceData
+   handleStreamEnded
+   fireClipsInitEvent
+   loadClipsFromStorage
+   maybeStartNtpClock
+
+==========[ MODULE 247569 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 249938 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 252431 ]==========
+EXPORT: A
+   initialize
+   getState
+
+==========[ MODULE 254656 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 256331 ]==========
+EXPORT: A
+   initialize
+   isHighlightingEnabled
+   getState
+   getUserAgnosticState
+
+==========[ MODULE 260364 ]==========
+EXPORT: A
+   clearTimeoutTimer
+   sendMetric
+   startTracking
+   stopTracking
+   clearTracking
+
+==========[ MODULE 262234 ]==========
+EXPORT: casual
+   clone
+   parseDate
+   parse
+EXPORT: strict
+   clone
+   parseDate
+   parse
+
+==========[ MODULE 264322 ]==========
+EXPORT: Ay
+   initialize
+   getContextState
+   hasContextStateApplication
+   getGuildState
+   getUserState
+   hasUserStateApplication
+   getApplicationState
+   getApplicationStates
+   hasApplicationState
+   query
+   queryInstallOnDemandApp
+
+==========[ MODULE 264572 ]==========
+EXPORT: Buffer
+   fromBase64
+   fromHex
+
+==========[ MODULE 265059 ]==========
+EXPORT: A
+   initialize
+   getUserAgnosticState
+
+==========[ MODULE 265704 ]==========
+EXPORT: A
+   isBountyCompleted
+   getCompletedBountyCount
+   isClaimingBountyReward
+   areAllBountiesCompleted
+   getAdDecisionByPlacementAndAdCreativeId
+   getBountyVideoProgress
+
+==========[ MODULE 266361 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 267102 ]==========
+EXPORT: Uw
+   safeDispatch
+   dispatch
+   dispatchToLastSubscribed
+   hasSubscribers
+   _checkSavedDispatches
+   subscribe
+   subscribeOnce
+   resubscribe
+   unsubscribe
+   reset
+   dispatchKeyed
+   subscribeKeyed
+   unsubscribeKeyed
+
+==========[ MODULE 268387 ]==========
+EXPORT: A
+   initialize
+
+==========[ MODULE 268988 ]==========
+EXPORT: A
+   getRecentMessageAuthorIds
+
+==========[ MODULE 270115 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 272053 ]==========
+EXPORT: A
+   init
+   maybeWaitForAccordionExpansion
+   maybeCreatePanelSnapshot
+   deletePanelSnapshot
+   deleteAllPanelSnapshots
+   getNextCategoryKey
+   notifyAccordionExpanded
+   navigate
+   scrollToOffset
+   scrollToTarget
+   reset
+
+==========[ MODULE 274184 ]==========
+EXPORT: Ay
+   initialize
+   getState
+   getCurrentSurvey
+   getSurveyOverride
+   getLastSeenTimestamp
+   shouldAllowSurveyAction
+
+==========[ MODULE 274303 ]==========
+EXPORT: A
+   initialize
+   getCanUseMultiAccountMobile
+   getState
+   getUsers
+   getValidUsers
+   getHasLoggedInAccounts
+   getIsValidatingUsers
+
+==========[ MODULE 276208 ]==========
+EXPORT: X
+   isIncomingVideoEnabled
+   lastIncomingVideoEnabledChangeTime
+   setIncomingVideoEnabled
+
+==========[ MODULE 279263 ]==========
+EXPORT: A
+   getNote
+   stateWrapper
+
+==========[ MODULE 280450 ]==========
+EXPORT: default
+   initialize
+   getLoginStatus
+   getId
+   getSessionId
+   getAuthSessionIdHash
+   getStaticAuthSessionId
+   getToken
+   isAuthenticated
+   getFingerprint
+   getInstallationForTracking
+   getAnalyticsToken
+   getMFATicket
+   getMFAMethods
+   getLoginInstanceId
+   hasTOTPEnabled
+   getCredentials
+   allowLogoutRedirect
+   getSuspendedUserToken
+   getIsPasswordlessActive
+   attemptedPasswordLogin
+
+==========[ MODULE 281084 ]==========
+EXPORT: A
+   setVerifyTimezone
+   ensureTimezoneUpdated
+
+==========[ MODULE 281969 ]==========
+EXPORT: A
+   isFramePooled
+   isFrameVisible
+   subscribe
+   setFrameVisible
+   removeFrame
+   emit
+
+==========[ MODULE 284016 ]==========
+EXPORT: A
+   initialize
+   getState
+   shouldSync
+   getTextSettings
+   getAppearanceSettings
+
+==========[ MODULE 284227 ]==========
+EXPORT: A
+   handleTrackStateChanged
+   handleRunningGamesChange
+
+==========[ MODULE 285059 ]==========
+EXPORT: A
+   getGuildEventUserCounts
+   getGuildEventUsers
+   getGuildEventsForCurrentUser
+   handleConnectionOpen
+   handleGuildUnavailable
+   handleGuildDelete
+   handleInviteResolveSuccess
+   handleChannelSelect
+
+==========[ MODULE 287809 ]==========
+EXPORT: default
+   initialize
+   takeSnapshot
+   handleLoadCache
+   getUserStoreVersion
+   getUser
+   getUsers
+   forEach
+   findByTag
+   filter
+   getCurrentUser
+
+==========[ MODULE 288116 ]==========
+EXPORT: GB
+   clone
+   parseDate
+   parse
+EXPORT: casual
+   clone
+   parseDate
+   parse
+EXPORT: strict
+   clone
+   parseDate
+   parse
+
+==========[ MODULE 289919 ]==========
+EXPORT: A
+   registerTransport
+   handleConnect
+   handleDisconnect
+   handleRequest
+   setCommandHandler
+   setEventHandler
+   dispatch
+   error
+   listenIsSubscribed
+   dispatchIsSubscribedUpdate
+   isSubscribed
+   isChildSubscribed
+   getSubscription
+   addSubscription
+   removeSubscription
+   removeSubscriptions
+   dispatchToSubscriptions
+   updateSubscriptions
+   storeWait
+
+==========[ MODULE 290863 ]==========
+EXPORT: A
+   initialize
+   setCurrentUserOnConnectionOpen
+   getStatus
+   getActivities
+   getUnfilteredActivities
+   getHiddenActivities
+   getPrimaryActivity
+   getAllApplicationActivities
+   getApplicationActivity
+   findActivity
+   getActivityMetadata
+   getUserIds
+   isMobileOnline
+   isVROnline
+   getClientStatus
+   getState
+
+==========[ MODULE 291731 ]==========
+EXPORT: A
+   initialize
+   hasChanges
+   getWebhook
+   showNotice
+   getProps
+
+==========[ MODULE 291951 ]==========
+EXPORT: A
+   handleInitialize
+   handleGuildMemberUpdate
+   handleGuildMemberRemove
+   handleGuildDelete
+   handleGuildMemberSearchSuccess
+
+==========[ MODULE 292670 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 293066 ]==========
+EXPORT: A
+   initialize
+   getState
+   hasAcceptedEULA
+
+==========[ MODULE 294997 ]==========
+EXPORT: T
+   once
+   EventEmitter
+   init
+   listenerCount
+
+==========[ MODULE 295405 ]==========
+EXPORT: A
+   getDefaultBillingCountryCode
+   getPaymentSource
+
+==========[ MODULE 295811 ]==========
+EXPORT: A
+   getLastSuccessfulFetch
+   getLastErrorTimestamp
+   getLastFetchOptions
+   getFetchShopHomeError
+   getIsFetchingShopHome
+   getShopBlocks
+   getHasKnownStaleData
+   getShopHomeConfigOverride
+   getShopLayoutUrlOverride
+
+==========[ MODULE 295813 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 296027 ]==========
+EXPORT: default
+   initialize
+   getDevToolsFocusedPidsWithTimestamp
+   getHasLoadedExperiments
+   getForcedRenderMode
+   isAnyOverlayRendering
+   getOverlayMethod
+   isOverlayOOPEnabledForPid
+   hasChangedRenderMode
+   getTrackedGameByPid
+   getTrackedGames
+   getClosedTrackedGamesHistory
+   getGameOverlayStatus
+   getGlobalEnabledStatus
+   getAnyGlobalEnabledOverlay
+   getPerGameEnabledStatus
+   getRenderMethod
+   getMostRecentOverlayRenderMethod
+   getOverlayRenderingTrackedGames
+
+==========[ MODULE 296797 ]==========
+EXPORT: A
+   fetchRunningGameRecords
+   handlePostConnectionOpen
+   _terminate
+
+==========[ MODULE 299091 ]==========
+EXPORT: A
+   getInvite
+   getInviteError
+   getInvites
+   getInviteKeyForGuildId
+   getFriendMemberIds
+
+==========[ MODULE 304296 ]==========
+EXPORT: A
+   initialize
+   getState
+
+==========[ MODULE 308588 ]==========
+EXPORT: $
+   create
+   internalBinaryRead
+   internalBinaryWrite
+
+==========[ MODULE 309010 ]==========
+EXPORT: Ay
+   initialize
+   getChannelId
+   getVoiceChannelId
+   getMostRecentSelectedTextChannelId
+   getCurrentlySelectedChannelId
+   getLastSelectedChannelId
+   getLastSelectedChannels
+   getLastChannelFollowingDestination
+
+==========[ MODULE 309698 ]==========
+EXPORT: A
+   initialize
+   getChannelStatus
+   hasRequestedStatuses
+
+==========[ MODULE 310031 ]==========
+EXPORT: A
+   initialize
+   canLoadMore
+   getInboxMessages
+   getNotifyingChannelIds
+   getChannelInfoMap
+   getDevOverrides
+
+==========[ MODULE 311043 ]==========
+EXPORT: A
+   isFetching
+   didFetchingFail
+   getGame
+   hasNoData
+   getCoverImageUrl
+
+==========[ MODULE 311849 ]==========
+EXPORT: A
+   _initialize
+   _terminate
+   handlePostConnectionOpen
+   trackNativeHeapPerformanceStats
+   trackNativeHeapHookStats
+   doRestartIfNeeded
+   trackPartitionAllocPerformanceStats
+   trackV8HeapAlloc
+   trackCPUProfiling
+
+==========[ MODULE 312006 ]==========
+EXPORT: Ay
+   initialize
+   isSpeaker
+   isModerator
+   isAudienceMember
+   getPermissionsForUser
+
+==========[ MODULE 312671 ]==========
+EXPORT: A
+   initialize
+   getState
+   getSoundpack
+   getLastSoundpackExperimentId
+
+==========[ MODULE 314732 ]==========
+EXPORT: A
+   okAsync
+   canUseGuildVersions
+   doesDatabaseVersionMatchJsConstants
+   handleClear
+   handleConnectionOpen
+   handleWrite
+   resetInMemoryState
+
+==========[ MODULE 315206 ]==========
+EXPORT: Ay
+   _initialize
+   _terminate
+
+==========[ MODULE 315240 ]==========
+EXPORT: A
+   initialize
+   getActiveNowChannelByChannelId
+   getActiveNowChannels
+   getActiveNowChannelIds
+   hasActiveNowChannelId
+   getScoreForChannelId
+   getScoreBreakdownForChannelId
+
+==========[ MODULE 317525 ]==========
+EXPORT: A
+   stateWrapper
+   serializeAllGuildRoles
+   getUnsafeMutableRoles
+   getManyRoles
+   getRole
+   getNumRoles
+   getEveryoneRole
+   partitionVersion
+
+==========[ MODULE 319400 ]==========
+EXPORT: LG
+   captureStackTrace
+   isError
+
+==========[ MODULE 320989 ]==========
+EXPORT: A
+   initialize
+   executeRouteRewrites
+   cleanup
+   addRouteChangeListener
+   addRouteRewriter
+   removeRouteChangeListener
+   removeRouteRewriter
+   getHistory
+
+==========[ MODULE 321034 ]==========
+EXPORT: A
+   setupReportingTimer
+   getProcessUptime
+   getCurrentCPUUsagePercent
+   getCumulativeCPUUsage
+   getCurrentMemoryUsageKB
+   getMemoryUsageDetails
+   getMemoryUsageElectronRenderer
+   getMemoryPrivateUsageElectronRenderer
+   getMemoryUsageElectronRendererUsedHeapSize
+   getMemoryHeapStats
+   getBlinkMemoryInfo
+   getMemoryUsageElectronProcessTypeDetails
+   getCpuUsageElectronProcessTypeDetails
+   enablePerfMemoryHooks
+   disablePerfMemoryHooks
+   getPerfAttributedMemory
+   getPerfAttributedMemoryCallstacks
+   getPerfAttributedMemoryStats
+   startCPUProfiling
+   stopCPUProfiling
+   enablePAMemoryProfiler
+   disablePAMemoryProfiler
+   getPerfAttributedPAMemory
+   getPerfAttributedPAMemoryCallstacks
+   getPartitionAllocatorStats
+   enableProfilingV8Heap
+   disableProfilingV8Heap
+   getProfilerV8MemoryCallstacks
+   getSystemMetrics
+
+==========[ MODULE 321090 ]==========
+EXPORT: A
+   initialize
+   getGPUBoostRequests
+   isGPUBoosted
+   getIsDisabledGPUBoost
+
+==========[ MODULE 321191 ]==========
+EXPORT: A
+   initialize
+   isFetchingProfile
+   isFetchingFriends
+   getUserProfile
+   getGuildMemberProfile
+   getMutualFriends
+   getMutualFriendsCount
+   getMutualGuilds
+   getWidgets
+   getWishlistIds
+   getFirstWishlistId
+   getWishlistSettings
+   takeSnapshot
+
+==========[ MODULE 324050 ]==========
+EXPORT: A
+   initialize
+   getUserAgnosticState
+   getLastGuildDismissedTime
+
+==========[ MODULE 328968 ]==========
+EXPORT: A
+   initialize
+   get
+   getForSKU
+   getUnpublishedForSKU
+   getForChannel
+   isFetchingForSKU
+   getStoreListing
+
+==========[ MODULE 330100 ]==========
+EXPORT: A
+   initialize
+   hasChanges
+   showNotice
+
+==========[ MODULE 330287 ]==========
+EXPORT: O
+   create
+   internalBinaryRead
+   internalBinaryWrite
+
+==========[ MODULE 334463 ]==========
+EXPORT: A
+   initialize
+   pipWidth
+   isEmbeddedActivityHidden
+   isFrameHidden
+   getDockedRect
+   isOpen
+   getState
+
+==========[ MODULE 335033 ]==========
+EXPORT: OGVCompat
+   hasTypedArrays
+   hasWebAssembly
+   hasWebAudio
+   hasFlash
+   hasAudio
+   isBlacklisted
+   isSlow
+   isTooSlow
+   supported
+EXPORT: OGVLoader
+   getGlobal
+   defaultBase
+   loadClass
+   loadScript
+   workerProxy
+
+==========[ MODULE 335560 ]==========
+EXPORT: A
+   _terminate
+
+==========[ MODULE 335871 ]==========
+EXPORT: D
+   now
+   toDate
+   fromDate
+   internalJsonWrite
+   internalJsonRead
+   create
+   internalBinaryRead
+   internalBinaryWrite
+
+==========[ MODULE 339580 ]==========
+EXPORT: A
+   getUserIdentities
+   getUserIdentityByApplication
+   getFetchState
+   isFetchingUser
+
+==========[ MODULE 340829 ]==========
+EXPORT: A
+   initialize
+   getState
+   isUpToDate
+   shouldPatch
+   isInstalled
+   supportsCloudSync
+   isLaunchable
+   getDefaultLaunchOption
+   getLaunchOptions
+   getHistoricalTotalBytesRead
+   getHistoricalTotalBytesDownloaded
+   getHistoricalTotalBytesWritten
+   whenInitialized
+
+==========[ MODULE 347209 ]==========
+EXPORT: A
+   handleInteraction
+
+==========[ MODULE 347481 ]==========
+EXPORT: A
+   initialize
+   isCertified
+   getCertifiedDevice
+   getCertifiedDeviceName
+   getCertifiedDeviceByType
+   isHardwareMute
+   hasEchoCancellation
+   hasNoiseSuppression
+   hasAutomaticGainControl
+   getVendor
+   getModel
+   getRevision
+
+==========[ MODULE 349435 ]==========
+EXPORT: Ay
+   initialize
+   getChannelSafetyWarning
+   getChannelSafetyWarnings
+   hasShownInitialTooltipForChannel
+
+==========[ MODULE 351022 ]==========
+EXPORT: A
+   getGuild
+   getGuildIds
+   getIsFetching
+   getIsInitialFetchComplete
+   getOffset
+   getTotal
+   getLastFetchTimestamp
+   getError
+   getErrorMessage
+
+==========[ MODULE 351906 ]==========
+EXPORT: A
+   initialize
+   getState
+   getSettings
+   isOverlayWidgetDisabled
+
+==========[ MODULE 354430 ]==========
+EXPORT: A
+   initialize
+   getState
+   getTopEmojiIdsByGuildId
+   getIsFetching
+
+==========[ MODULE 354670 ]==========
+EXPORT: A
+   initialize
+   getUserTrialOffer
+   getUserDiscountOffer
+   getAnyOfUserTrialOfferId
+   isFetchingOffer
+   hasFetchedOffer
+   shouldFetchReferralOffer
+   shouldShowTrialOfferReminder
+   getAlmostExpiringTrialOffersForReminder
+   shouldShowDiscountOfferReminder
+   getAlmostExpiringDiscountOffersForReminder
+   getAcknowledgedOffers
+   getUnacknowledgedDiscountOffers
+   getUnacknowledgedOffers
+   hasAnyUnexpiredOffer
+   hasAnyUnexpiredDiscountOffer
+   canFractionalPremiumUserUseOffer
+   getReferrer
+   getState
+   forceReset
+   lastFetchSuccessful
+   canTriggerUserOffer
+   getUptimeForTrigger
+
+==========[ MODULE 362474 ]==========
+EXPORT: u
+   get
+   set
+   remove
+   clear
+   stringify
+   asyncGetRaw
+   getRaw
+   setRaw
+   getAfterRefresh
+
+==========[ MODULE 362790 ]==========
+EXPORT: A
+   initialize
+   isEligible
+
+==========[ MODULE 363195 ]==========
+EXPORT: A
+   initialize
+   getState
+   themePreferenceForSystemTheme
+   getSyncedClientTheme
+   isSameAsDeviceThemeEnabled
+
+==========[ MODULE 366251 ]==========
+EXPORT: A
+   initialize
+   getIsPopoverDismissed
+   getShouldShowPopover
+
+==========[ MODULE 375708 ]==========
+EXPORT: intl
+   withFormatters
+   makeFormatFunction
+   setLocale
+   emitLocaleChange
+   string
+   reserialize
+   bindFormatValues
+
+==========[ MODULE 376151 ]==========
+EXPORT: A
+   _initialize
+   _reset
+   _trackStartSpeaking
+   _trackStartListening
+   _terminate
+   getGameMetadata
+
+==========[ MODULE 376463 ]==========
+EXPORT: A
+   initialize
+   getIsSwitchingAccount
+   getSwitchResult
+
+==========[ MODULE 378187 ]==========
+EXPORT: A
+   syncHeartbeats
+   getActivelyProgressingQuests
+   getActivelyProgressingPlayOnDesktopQuests
+   getActivelyProgressingStreamOnDesktopQuests
+   getActivelyProgressingActivityQuests
+
+==========[ MODULE 378803 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 380335 ]==========
+EXPORT: A
+   initialize
+   loadCache
+   takeSnapshot
+   getMessageRequestChannelIds
+   getMessageRequestsCount
+   isMessageRequest
+   isAcceptedOptimistic
+   isReady
+
+==========[ MODULE 381349 ]==========
+EXPORT: hans
+   clone
+   parseDate
+   parse
+EXPORT: casual
+   clone
+   parseDate
+   parse
+EXPORT: strict
+   clone
+   parseDate
+   parse
+
+==========[ MODULE 381616 ]==========
+EXPORT: A
+   initialize
+   getState
+   shouldShowChannelNotice
+   canShowOverviewTooltip
+   canShowToggleTooltip
+
+==========[ MODULE 383282 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 383394 ]==========
+EXPORT: A
+   initialize
+   getState
+   getExpandedFolders
+   isFolderExpanded
+
+==========[ MODULE 384046 ]==========
+EXPORT: A
+   handleSelectedGuildChange
+   handleEntitlementUpdate
+   handleAppliedBoostUpdate
+   refreshGuildPowerups
+
+==========[ MODULE 384200 ]==========
+EXPORT: A
+   getPreviewURL
+   shouldFetchPreview
+   getPreviewURLForStreamKey
+   getIsPreviewLoading
+
+==========[ MODULE 384684 ]==========
+EXPORT: A
+   initialize
+   getGuildIdsWithPurchasableRoles
+   buildRoles
+   getSubscriptionRoles
+   getPurchasableSubscriptionRoles
+   getUserSubscriptionRoles
+   getUserIsAdmin
+
+==========[ MODULE 385113 ]==========
+EXPORT: A
+   getConfig
+   getConfigs
+   getFetchState
+   getFeaturedFetchState
+   getDeveloperFetchState
+   getAllConfigsByApplication
+   getFeaturedApplicationIds
+   getDeveloperApplicationIds
+
+==========[ MODULE 388575 ]==========
+EXPORT: A
+   _initialize
+   _terminate
+
+==========[ MODULE 390225 ]==========
+EXPORT: A
+   destroy
+   injectBatchEmitChanges
+   pause
+   resume
+   batched
+   emit
+   getChangeSentinel
+   getIsPaused
+   markChanged
+   emitNonReactOnce
+   emitReactOnce
+
+==========[ MODULE 394300 ]==========
+EXPORT: A
+   fromServer
+
+==========[ MODULE 395671 ]==========
+EXPORT: Ay
+   createFromServer
+
+==========[ MODULE 397274 ]==========
+EXPORT: A
+   getPanelScrollerNode
+   getSidebarScrollerNode
+   setPanelScrollerRef
+   setSidebarScrollerRef
+   getIsSidebarCategoryAutoSelectEnabled
+   clearPanelInitialScrollListener
+   setPanelInitialScrollListener
+   scrollIntoView
+   scrollTo
+   scrollPanelNodeTo
+   scrollPanelNodeIntoView
+   scrollSidebarNodeIntoView
+   enableSidebarCategoryAutoSelect
+   reset
+
+==========[ MODULE 397438 ]==========
+EXPORT: A
+   initialize
+   getState
+   getAppliedOverrideReasonKey
+   getOverride
+
+==========[ MODULE 399263 ]==========
+EXPORT: A
+   initialize
+   getFiles
+   getMessageForFile
+   getUploaderFileForMessageId
+   getUploadAttachments
+
+==========[ MODULE 400528 ]==========
+EXPORT: A
+   initialize
+   getState
+   isUserBanned
+   getReportedMessages
+   hasReportedMessage
+
+==========[ MODULE 401262 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 401565 ]==========
+EXPORT: A
+   initialize
+   shouldLoadMessageRequestPreview
+   getMessageRequestPreview
+
+==========[ MODULE 403895 ]==========
+EXPORT: A
+   handleVoiceStateUpdates
+
+==========[ MODULE 404009 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 406002 ]==========
+EXPORT: casual
+   clone
+   parseDate
+   parse
+EXPORT: strict
+   clone
+   parseDate
+   parse
+
+==========[ MODULE 406595 ]==========
+EXPORT: A
+   initialize
+   getState
+   getFavoriteTargetIdsForTab
+   isFavorite
+
+==========[ MODULE 406935 ]==========
+EXPORT: ZQ
+   internalJsonWrite
+   internalJsonRead
+   create
+   internalBinaryRead
+   internalBinaryWrite
+EXPORT: _t
+   internalJsonWrite
+   internalJsonRead
+   create
+   internalBinaryRead
+   internalBinaryWrite
+EXPORT: as
+   internalJsonWrite
+   internalJsonRead
+   create
+   internalBinaryRead
+   internalBinaryWrite
+EXPORT: hU
+   internalJsonWrite
+   internalJsonRead
+   create
+   internalBinaryRead
+   internalBinaryWrite
+EXPORT: j1
+   internalJsonWrite
+   internalJsonRead
+   create
+   internalBinaryRead
+   internalBinaryWrite
+EXPORT: ol
+   internalJsonWrite
+   internalJsonRead
+   create
+   internalBinaryRead
+   internalBinaryWrite
+EXPORT: uN
+   internalJsonWrite
+   internalJsonRead
+   create
+   internalBinaryRead
+   internalBinaryWrite
+
+==========[ MODULE 408730 ]==========
+EXPORT: A
+   _initialize
+   _terminate
+   _transferSession
+   getViewState
+   setViewState
+   schedule
+   evaluateViewState
+   setFocused
+   setSidebarOpen
+   setFiltersModalOpen
+   enqueueEvent
+   flushPendingEvents
+
+==========[ MODULE 409686 ]==========
+EXPORT: Ay
+   initialize
+   getMentions
+   getSettingsFilteredMentions
+   hasMention
+   getMentionCountForChannel
+
+==========[ MODULE 412260 ]==========
+EXPORT: A
+   initialize
+   getPromotionByTypeAndId
+   getPromotionByTypeAndKey
+   getState
+   getMarketingComponentByType
+   hasPromotion
+   getPromotionsByPartner
+   getGiftPromotion
+   getGiftPromotionRewardSkuIds
+   getMarketingMomentPromotion
+   getMarketingMomentRewardSkuIds
+   getActiveBogoRewardPromotion
+
+==========[ MODULE 412780 ]==========
+EXPORT: Ay
+   initialize
+   getSection
+   getInboundStats
+   getOutboundStats
+   getAllStats
+   getVideoStreams
+   shouldRecordNextConnection
+   getSimulcastDebugOverride
+
+==========[ MODULE 413323 ]==========
+EXPORT: Ay
+   once
+   EventEmitter
+   init
+   listenerCount
+
+==========[ MODULE 413528 ]==========
+EXPORT: A
+   _initialize
+
+==========[ MODULE 414525 ]==========
+EXPORT: H
+   create
+   internalBinaryRead
+   internalBinaryWrite
+
+==========[ MODULE 415202 ]==========
+EXPORT: A
+   _handleCrepeEntitlementChange
+   _handleVirtualCurrencyUpdate
+   _handleNewSubscription
+   _initializeProgramRewards
+   _terminate
+
+==========[ MODULE 416380 ]==========
+EXPORT: A
+   _initialize
+
+==========[ MODULE 419212 ]==========
+EXPORT: A
+   getGiftCode
+
+==========[ MODULE 422033 ]==========
+EXPORT: A
+   getLastProgress
+   isRunning
+
+==========[ MODULE 422069 ]==========
+EXPORT: A
+   getSimilarGames
+   getShopCollectionSkuIds
+   hasShopCollectionBeenFetched
+   isShopCollectionFetching
+   getAnnouncements
+   hasAnnouncementsBeenFetched
+   isAnnouncementsFetching
+   getPendingReturn
+
+==========[ MODULE 425116 ]==========
+EXPORT: A
+   _initialize
+   _terminate
+
+==========[ MODULE 426620 ]==========
+EXPORT: A
+   initialize
+   getType
+   getState
+
+==========[ MODULE 427358 ]==========
+EXPORT: A
+   initialize
+   shouldFetch
+   isFetching
+   getUserAffinities
+   getUserAffinitiesMap
+   compare
+   compareByDmProbability
+   getUserAffinity
+   getState
+   isHighlyAffinedVCUser
+
+==========[ MODULE 435738 ]==========
+EXPORT: A
+   initialize
+   getState
+   getImpressionCappedItemIds
+   getDebugFastImpressionCappingEnabled
+   reset
+
+==========[ MODULE 436283 ]==========
+EXPORT: Ay
+   initialize
+   getInteraction
+   getMessageInteractionStates
+   canQueueInteraction
+   getIFrameModalApplicationId
+   getIFrameModalKey
+   getInteractionDebugContext
+
+==========[ MODULE 437959 ]==========
+EXPORT: A
+   initialize
+   getIncident
+   getScheduledMaintenance
+
+==========[ MODULE 440976 ]==========
+EXPORT: A
+   getUsers
+   isKeyVerified
+
+==========[ MODULE 442325 ]==========
+EXPORT: A
+   initialize
+   getState
+   getTabs
+   getActiveTabId
+   getActiveTab
+   isEnabled
+   isUserOptedIn
+   isTabBarVisible
+   isAtMaxTabs
+   canGoBackInActiveTab
+   canGoForwardInActiveTab
+
+==========[ MODULE 444261 ]==========
+EXPORT: A
+   handleChannelDelete
+   handleMessageCreate
+   handleGuildDelete
+
+==========[ MODULE 444848 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 446600 ]==========
+EXPORT: A
+   getStageInstanceByChannel
+   isLive
+   isPublic
+   getStageInstancesByGuild
+   getAllStageInstances
+
+==========[ MODULE 449000 ]==========
+EXPORT: A
+   initialize
+   getReadTimestamp
+   getState
+   getUserAgnosticState
+
+==========[ MODULE 450510 ]==========
+EXPORT: HP
+   initialize
+   hasHotspot
+   hasHiddenHotspot
+   getHotspotOverride
+   getState
+
+==========[ MODULE 450827 ]==========
+EXPORT: A
+   _initialize
+   _terminate
+   rebootWebworker
+   updateUsers
+   getUserSearchContext
+   requestDebugState
+
+==========[ MODULE 451099 ]==========
+EXPORT: A
+   _initialize
+   _terminate
+
+==========[ MODULE 451988 ]==========
+EXPORT: bY
+   captureStackTrace
+   isError
+
+==========[ MODULE 453001 ]==========
+EXPORT: A
+   hasChannel
+   hasGuild
+   getBasicChannel
+   getGuildBasicChannels
+   invalidate
+   restored
+   initialize
+   handleCacheLoadedLazy
+   handleCacheLoadedLazyNoCache
+   handleConnectionOpen
+   handleLogout
+   delete
+
+==========[ MODULE 453028 ]==========
+EXPORT: Ay
+   initialize
+   supports
+   supportsInApp
+   isSupported
+   isNoiseSuppressionSupported
+   isNoiseCancellationSupported
+   isNoiseCancellationError
+   isAutomaticGainControlSupported
+   shouldOfferManualSubsystemSelection
+   showBypassSystemInputProcessing
+   isAdvancedVoiceActivitySupported
+   isAecDumpSupported
+   isSimulcastSupported
+   getAecDump
+   getMediaEngine
+   getVideoComponent
+   getCameraComponent
+   getKrispSuppressionLevel
+   getKrispEnableStats
+   isEnabled
+   isMute
+   isDeaf
+   isServerMute
+   isServerDeaf
+   getAudioMixerSettings
+   isSpatialAudioEnabled
+   isSpatialAudioActive
+   hasContext
+   isSelfMutedTemporarily
+   isSelfMute
+   shouldSkipMuteUnmuteSound
+   notifyMuteUnmuteSoundWasSkipped
+   isHardwareMute
+   isHardwareMuteNoticeEnabled
+   isSelfDeaf
+   isVideoEnabled
+   isVideoAvailable
+   hasVideoDevice
+   isScreenSharing
+   isSoundSharing
+   isLocalMute
+   supportsDisableLocalVideo
+   isLocalVideoDisabled
+   getVideoToggleState
+   isLocalVideoAutoDisabled
+   isAnyLocalVideoAutoDisabled
+   isMediaFilterSettingLoading
+   isNativeAudioPermissionReady
+   getGoLiveSource
+   getGoLiveContext
+   getLastAudioInputDeviceChangeTimestamp
+   isH264MfDecodeAvailable
+   getLocalPan
+   getLocalVolume
+   getInputVolume
+   getOutputVolume
+   getMode
+   getModeOptions
+   getShortcuts
+   getInputDeviceId
+   getOutputDeviceId
+   getVideoDeviceId
+   getInputDevices
+   getOutputDevices
+   getVideoDevices
+   getEchoCancellation
+   getSidechainCompression
+   getSidechainCompressionStrength
+   getH265Enabled
+   hasH265HardwareDecode
+   getOpenH264Enabled
+   getLoopback
+   getLoopbackReasons
+   getNoiseSuppression
+   getAutomaticGainControl
+   getBypassSystemInputProcessing
+   getNoiseCancellation
+   getHardwareEncoding
+   getEnableSilenceWarning
+   getDebugLogging
+   getQoS
+   getAttenuation
+   getAttenuateWhileSpeakingSelf
+   getAttenuateWhileSpeakingOthers
+   getAudioSubsystem
+   getMLSSigningKey
+   getActiveInputProfile
+   isInputProfileCustom
+   getSettings
+   getState
+   getInputDetectedThisConnection
+   getInputDetected
+   getLastInputDetectedUpdateTime
+   getNoInputDetectedNotice
+   getInputDeviceOSMuted
+   getInputDeviceOSVolume
+   getPacketDelay
+   setCanHavePriority
+   isInteractionRequired
+   getVideoHook
+   supportsVideoHook
+   getExperimentalSoundshare
+   supportsExperimentalSoundshare
+   supportsHookSoundshare
+   getUseSystemScreensharePicker
+   supportsSystemScreensharePicker
+   getUseVaapiEncoder
+   getVideoEncoderExperiments
+   getUseGamescopeCapture
+   getSpeakingWhileMuted
+   getKrispModelOverride
+   getKrispModels
+   getKrispVadActivationThreshold
+   hasActiveCallKitCall
+   setHasActiveCallKitCall
+   supportsScreenSoundshare
+   getSystemMicrophoneMode
+   getVideoStreamParameters
+   fetchAsyncResources
+   startDavePreload
+   getSupportedSecureFramesProtocolVersion
+   hasClipsSource
+   isClipsRecordingReady
+   isClipsRecordingReadySignalSupported
+   getGpuBrand
+
+==========[ MODULE 453314 ]==========
+EXPORT: A
+   _initialize
+   _terminate
+   handleShow
+   handleHide
+
+==========[ MODULE 453360 ]==========
+EXPORT: i
+   create
+   internalBinaryRead
+   internalBinaryWrite
+
+==========[ MODULE 454058 ]==========
+EXPORT: A
+   initialize
+   getNewChannelIds
+   shouldIndicateNewChannel
+
+==========[ MODULE 455598 ]==========
+EXPORT: ej
+   create
+   internalBinaryRead
+   binaryReadMap2
+   internalBinaryWrite
+
+==========[ MODULE 456874 ]==========
+EXPORT: A
+   initialize
+   getCount
+   getMostRecentMessage
+   getChannelThreadsVersion
+   getInitialOverlayState
+
+==========[ MODULE 457421 ]==========
+EXPORT: A
+   getMarketingBySurface
+
+==========[ MODULE 457699 ]==========
+EXPORT: A
+   getMessage
+
+==========[ MODULE 458294 ]==========
+EXPORT: default
+   initialize
+   loadCache
+   takeSnapshot
+   hasAnyUnread
+   getStoreChangeSentinel
+   getMutableUnreadGuilds
+   getMutableGuildStates
+   shouldCountChannelUnread
+   hasUnread
+   getMentionCount
+   getIsMentionLowImportance
+   getGuildHasUnreadIgnoreMuted
+   getTotalMentionCount
+   getTotalNotificationsMentionCount
+   getPrivateChannelMentionCount
+   getMentionCountForPrivateChannel
+   getHighImportanceMentionCountForChannel
+   getGuildChangeSentinel
+
+==========[ MODULE 461213 ]==========
+EXPORT: A
+   initialize
+   getLocalPresence
+   getStatus
+   getActivities
+   getUnfilteredActivities
+   getHiddenActivities
+   getPrimaryActivity
+   getApplicationActivity
+   findActivity
+
+==========[ MODULE 463105 ]==========
+EXPORT: A
+   isChannelEligible
+   maybeSendGiftingPromptSystemMessageDelayed
+   maybeSendGiftingPromptSystemMessage
+   sendGiftPromptMessageInSelectedChannelIfEligible
+   onChannelSelect
+   sendGiftingPromptSystemMessagesIfEligible
+
+==========[ MODULE 463123 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 463398 ]==========
+EXPORT: A
+   _terminate
+   onLocaleChanged
+   onPostConnectionOpen
+   onSubscriptionStateChanged
+   onPromotionsFetchSettled
+   onMobilePurchaseSuccess
+   onOfferUpdated
+   onVCRedeemed
+
+==========[ MODULE 464578 ]==========
+EXPORT: A
+   setTTICallback
+   setInitialPage
+   setInitialGuildId
+   setEarlyCacheInfo
+   setLazyCacheInfo
+   setInterstitial
+   addLocalMessages
+   attachReadyPayloadProperties
+   appStateChanged
+   recordRender
+   recordMessageRender
+   getStartTime
+   processNativeLogs
+   serializeAppStartupMetrics
+   serializeWebPerfStartupMetrics
+   serializeTTITracker
+
+==========[ MODULE 465797 ]==========
+EXPORT: A
+   initialize
+   getState
+   isSyncing
+
+==========[ MODULE 466448 ]==========
+EXPORT: A
+   registerBadges
+   notifyNavigated
+   reset
+   markAsDismissed
+
+==========[ MODULE 469778 ]==========
+EXPORT: A
+   initialize
+   get
+   getGiftable
+   getForApplication
+   getForSku
+   isFetchingForApplication
+   isFetchedForApplication
+   getForSubscription
+   isEntitledToSku
+   hasFetchedForApplicationIds
+   getFractionalPremium
+   isFractionalPremiumActive
+   getUnactivatedFractionalPremiumUnits
+
+==========[ MODULE 470214 ]==========
+EXPORT: A
+   _initialize
+   _terminate
+
+==========[ MODULE 470710 ]==========
+EXPORT: A
+   initialize
+   getCall
+   getCalls
+   getMessageId
+   isCallActive
+   isCallUnavailable
+   getInternalState
+
+==========[ MODULE 472090 ]==========
+EXPORT: AnimatedString
+   create
+
+==========[ MODULE 472574 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 474399 ]==========
+EXPORT: A
+   initialize
+   getCount
+   getThreadIdsMissingCounts
+
+==========[ MODULE 475669 ]==========
+EXPORT: A
+   initialize
+   getState
+   getStateForGuild
+   getGlobalCatalogState
+   getGlobalCatalogGame
+   getLowestGameCostForGuild
+   hasFetchedCatalog
+   hasFetchedInstances
+   shouldFetchCatalogForGuild
+   shouldFetchInstancesForGuild
+   shouldFetchGlobalCatalog
+
+==========[ MODULE 477014 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 477729 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 477767 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 480595 ]==========
+EXPORT: A
+   initialize
+   getActivities
+   getPrimaryActivity
+   getApplicationActivity
+   getCustomStatusActivity
+   findActivity
+   getApplicationActivities
+   getActivityForPID
+
+==========[ MODULE 485296 ]==========
+EXPORT: A
+   initialize
+   getSpeakingDuration
+   getSpeakers
+   isSpeaking
+   isPrioritySpeaker
+   isSoundSharing
+   isAnyoneElseSpeaking
+   isCurrentUserSpeaking
+   isCurrentUserPTTActive
+   isAnyonePrioritySpeaking
+   isCurrentUserPrioritySpeaker
+   isCurrentUserPrioritySpeaking
+   getVoiceVolume
+
+==========[ MODULE 489277 ]==========
+EXPORT: A
+   initialize
+   isOverlayV3EnabledForPID
+   getWidgetByType
+   isPinned
+   getTargetPID
+   getFocusedPID
+   getNativeLimitedInteraction
+   getFocusedWindowHandle
+   getKnownWindowHandlesForPID
+   isFocused
+   getFocusedRunningGame
+   getPopoutInitializationStages
+   isWindowHandleInitialized
+   isReady
+   getOverlayState
+   getIsOverlayPreShown
+   getOverlayMethod
+
+==========[ MODULE 498642 ]==========
+EXPORT: A
+   getMemberCounts
+   getMemberCount
+   getOnlineCount
+
+==========[ MODULE 499118 ]==========
+EXPORT: A
+   initialize
+   getVisibleTabs
+
+==========[ MODULE 499979 ]==========
+EXPORT: TF
+   now
+
+==========[ MODULE 503509 ]==========
+EXPORT: A
+   initialize
+   getIncomingCalls
+   getIncomingCallChannelIds
+   getFirstIncomingCallId
+   hasIncomingCalls
+
+==========[ MODULE 505274 ]==========
+EXPORT: A
+   setBalancePillOverlay
+   getCurrentBalance
+   handleBalanceStateReset
+   handleBalanceFetch
+   handleBalanceFetchSuccess
+   handleBalanceFetchFail
+   handleBalanceUpdate
+   handleRedeemVirtualCurrencyStart
+   handleRedeemVirtualCurrencySuccess
+   handleRedeemVirtualCurrencyFail
+   handleOnboardingModalOpen
+   handleOnboardingModalReset
+
+==========[ MODULE 506774 ]==========
+EXPORT: w
+   get
+   set
+   remove
+   clear
+   stringify
+   asyncGetRaw
+   getRaw
+   setRaw
+   getAfterRefresh
+
+==========[ MODULE 507104 ]==========
+EXPORT: Ay
+   initialize
+   getState
+   getFriendAnniversaries
+   canShowFriendsTabBadge
+   getFriendAnniversaryYears
+   isGiftIntentMessageInCooldown
+   getDevToolTotalFriendAnniversaries
+   getDevToolCurrentDate
+   getHighestAffinityFriendAnniversaries
+   getHighAffinityFriendAnniversaries
+   getMessageGiftIntentLastShownMap
+   getLastKnownGiftIntentDismissedAtMs
+
+==========[ MODULE 510801 ]==========
+EXPORT: A
+   fromServer
+
+==========[ MODULE 514581 ]==========
+EXPORT: Ay
+   handleBlockedOrIgnoredUserVoiceChannelJoin
+
+==========[ MODULE 514983 ]==========
+EXPORT: A
+   stateWrapper
+   getStickerById
+   isPremiumPack
+   getStickerPack
+
+==========[ MODULE 517019 ]==========
+EXPORT: A
+   initialize
+   didAgree
+
+==========[ MODULE 517092 ]==========
+EXPORT: A
+   initialize
+   getState
+   getLastActionTime
+   maybeAutoUpgradeChannel
+
+==========[ MODULE 517164 ]==========
+EXPORT: A
+   getMatchingOutboxEntry
+   getUserOutbox
+   isFetchingUserOutbox
+
+==========[ MODULE 517381 ]==========
+EXPORT: A
+   initialize
+   getMessage
+   getTotalCount
+   getIsInitialFetchComplete
+   getIsIndexing
+   getIsHistoricalIndexing
+   getDocumentsIndexed
+   getIsFetching
+   getError
+   getMessages
+   getCursor
+   getAnalyticsId
+   hasSearchState
+
+==========[ MODULE 519480 ]==========
+EXPORT: A
+   isFetching
+   getCurrentCategoryId
+   getDirectoryEntries
+   getDirectoryEntry
+   getDirectoryAllEntriesCount
+   getDirectoryCategoryCounts
+   getAdminGuildEntryIds
+
+==========[ MODULE 520361 ]==========
+EXPORT: h
+   create
+   internalBinaryRead
+   internalBinaryWrite
+
+==========[ MODULE 521502 ]==========
+EXPORT: A
+   getCurrentBuildOverride
+   getBuildOverride
+   getBuildOverrides
+
+==========[ MODULE 522602 ]==========
+EXPORT: A
+   getFirstUpload
+   hasAdditionalUploads
+   getUploads
+   getUploadCount
+   getUpload
+   findUpload
+
+==========[ MODULE 522851 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 525227 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 526162 ]==========
+EXPORT: A
+   initialize
+   getState
+   getCurrentDesktopIcon
+
+==========[ MODULE 527533 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 528399 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 528767 ]==========
+EXPORT: A
+   initialize
+   getSessions
+   getSession
+   getRemoteActivities
+   getHiddenActivities
+   getSessionById
+   getActiveSession
+   getRemoteApplicationActivity
+
+==========[ MODULE 530478 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 531685 ]==========
+EXPORT: A
+   isFocused
+   isAppFocused
+   isVisible
+   getFocusedWindowId
+   getLastFocusedWindowId
+   isElementFullScreen
+   windowSize
+
+==========[ MODULE 532309 ]==========
+EXPORT: A
+   initialize
+   getState
+   getTotalDaysInDuration
+   isFetching
+   isFetched
+   hasCachedValue
+   isReady
+   shouldFetch
+   isError
+   getStatus
+   getRewardForProgram
+   forceExpire
+
+==========[ MODULE 532624 ]==========
+EXPORT: Ay
+   initialize
+   getUserAgnosticState
+   hasKeybind
+   hasExactKeybind
+   getKeybindForAction
+   getOverlayKeybind
+   getOverlayChatKeybind
+
+==========[ MODULE 535586 ]==========
+EXPORT: A
+   initialize
+   getGlobalStats
+   getStats
+
+==========[ MODULE 536802 ]==========
+EXPORT: A
+   initialize
+   destroy
+   getAll
+   removeAllConditionalListeners
+
+==========[ MODULE 539895 ]==========
+EXPORT: A
+   initialize
+   isOpen
+   getProps
+   getInviteKey
+
+==========[ MODULE 540999 ]==========
+EXPORT: A
+   initialize
+   getExperimentDescriptor
+
+==========[ MODULE 542127 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 542986 ]==========
+EXPORT: A
+   isFetchingFriendsForGuild
+   fetchFriendMembersIfNotFetched
+
+==========[ MODULE 543465 ]==========
+EXPORT: Ay
+   initialize
+   getState
+   isSuppressEveryoneEnabled
+   isSuppressRolesEnabled
+   isMuteScheduledEventsEnabled
+   isMobilePushEnabled
+   isMuted
+   isTemporarilyMuted
+   getMuteConfig
+   getMessageNotifications
+   getChannelOverrides
+   getNotifyHighlights
+   getGuildFlags
+   getChannelMessageNotifications
+   getChannelMuteConfig
+   getMutedChannels
+   isChannelMuted
+   isCategoryMuted
+   resolvedMessageNotifications
+   resolveUnreadSetting
+   isGuildOrCategoryOrChannelMuted
+   allowNoMessages
+   allowAllMessages
+   isGuildCollapsed
+   getAllSettings
+   getChannelIdFlags
+   getChannelFlags
+   getNewForumThreadsCreated
+   isOptInEnabled
+   isChannelRecordOrParentOptedIn
+   isChannelOrParentOptedIn
+   isChannelOptedIn
+   getOptedInChannels
+   getOptedInChannelsWithPendingUpdates
+   getPendingChannelUpdates
+   getGuildFavorites
+   isFavorite
+   isMessagesFavorite
+   getGuildUnreadSetting
+   resolveGuildUnreadSetting
+   getChannelRecordUnreadSetting
+   getChannelUnreadSetting
+
+==========[ MODULE 543897 ]==========
+EXPORT: A
+   getGeoRestrictedGuilds
+
+==========[ MODULE 544180 ]==========
+EXPORT: A
+   initialize
+   getType
+   getEffectiveConnectionSpeed
+   getServiceProvider
+
+==========[ MODULE 544482 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 545185 ]==========
+EXPORT: A
+   finishRoll
+   sendMessage
+   dismiss
+   clearTimers
+
+==========[ MODULE 549412 ]==========
+EXPORT: Buf8
+   of
+   from
+EXPORT: Buf16
+   of
+   from
+EXPORT: Buf32
+   of
+   from
+
+==========[ MODULE 551851 ]==========
+EXPORT: A
+   initialize
+   isVoiceCategoryExpanded
+   isVoiceCategoryCollapsed
+   getState
+
+==========[ MODULE 552609 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 553366 ]==========
+EXPORT: A
+   handleVoiceStateUpdates
+
+==========[ MODULE 555091 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 555337 ]==========
+EXPORT: A
+   initialize
+   getMetadata
+   widgetHasChanges
+   hasChanges
+   isOpen
+   getSavedRouteState
+   getSection
+   showNotice
+   getGuildId
+   showPublicSuccessModal
+   getGuild
+   getPendingOriginalMd5s
+   getGuildProfile
+   getWidget
+   isSubmitting
+   isGuildMetadataLoaded
+   getErrors
+   getError
+   getProfileError
+   getSelectedRoleId
+   getSlug
+   getBans
+   getProps
+
+==========[ MODULE 557361 ]==========
+EXPORT: rx
+   add
+   remove
+   current
+   isActive
+   toggleLayer
+   subscribe
+   emit
+
+==========[ MODULE 557740 ]==========
+EXPORT: A
+   initialize
+   getVersion
+   getDehydratedItems
+   getNewDehydratedItems
+   getDehydratedItem
+   getHydratedItem
+   getMessage
+   getHydratedItems
+   getUnreadDisplayItems
+   getNewUnreadDehydratedItems
+   getReadDisplayItems
+   getNextIndexToHydrate
+   getMissingItems
+   customMuted
+   getCustomChannelScore
+   getCustomGuildScore
+   getCustomGuildScores
+   hasNewContent
+   getCurrentStatusAttachments
+   getLoadId
+   hasOpenedEnoughTimes
+   hasOpened
+   getDiscoverableGuilds
+   videosMuted
+   isRefreshing
+   isHydrating
+   notificationItem
+   getIsTabFocused
+   isFirstPageHydrated
+   lastScrollEvent
+   lastTakenICYMISurvey
+   getIndexInHydratedFeed
+   getState
+
+==========[ MODULE 558076 ]==========
+EXPORT: A
+   initialize
+   getState
+   getRoom
+   getRoomUsers
+   getRoomObjects
+   getPendingPosition
+   getMediaSessionId
+   isVisible
+   getPendingNote
+   getCreatingNotes
+   getNotes
+   getVideoOverlayVisibility
+   getRememberVideoOverlayVisibility
+
+==========[ MODULE 559908 ]==========
+EXPORT: Ay
+   initialize
+   getComboScore
+   getUserCombo
+   isComboing
+   getMessageCombo
+   getMostRecentMessageCombo
+   getUserComboShakeIntensity
+
+==========[ MODULE 560010 ]==========
+EXPORT: A
+   getFollowerStatsForChannel
+
+==========[ MODULE 561573 ]==========
+EXPORT: A
+   initialize
+   getPricesForSkuId
+   getFetchStateForSkuId
+   getFetchStateForApplicationId
+   getPromotionIdsForSkuId
+   getRewardsForSkuId
+
+==========[ MODULE 565150 ]==========
+EXPORT: Ay
+   once
+   EventEmitter
+   init
+   listenerCount
+
+==========[ MODULE 567249 ]==========
+EXPORT: A
+   initialize
+   getWindow
+   getWindowState
+   getWindowKeys
+   getWindowOpen
+   getIsAlwaysOnTop
+   getWindowFocused
+   getWindowVisible
+   getState
+   isWindowFullyInitialized
+   isWindowFullScreen
+   unmountWindow
+
+==========[ MODULE 568004 ]==========
+EXPORT: A
+   initialize
+   getTargetBuildId
+   getTargetManifests
+   hasNoBuild
+   isFetching
+   needsToFetchBuildSize
+   getBuildSize
+
+==========[ MODULE 570221 ]==========
+EXPORT: A
+   createFromServer
+   createInvoiceFromOrder
+
+==========[ MODULE 572487 ]==========
+EXPORT: A
+   getConnectionState
+   getQuality
+   getHostname
+   getPings
+   getAveragePing
+   getLastPing
+   getOutboundLossRate
+
+==========[ MODULE 573163 ]==========
+EXPORT: Ay
+   initialize
+   getReadStatesByChannel
+   getForDebugging
+   getNotifCenterReadState
+   hasLastMessage
+   canBeUnread
+   hasUnread
+   hasUnreadOrMentions
+   hasTrackedUnread
+   isForumPostUnread
+   getUnreadCount
+   getMentionCount
+   getIsMentionLowImportance
+   getGuildChannelUnreadState
+   hasRecentlyVisitedAndRead
+   ackMessageId
+   getTrackedAckMessageId
+   lastMessageId
+   lastMessageTimestamp
+   lastPinTimestamp
+   getOldestUnreadMessageId
+   getOldestUnreadTimestamp
+   isEstimated
+   hasOpenedThread
+   hasUnreadPins
+   isNewForumThread
+   getAllReadStates
+   getGuildUnreadsSentinel
+   getMentionChannelIds
+   getNonChannelAckId
+   getSnapshot
+   getChannelIdsForWindowId
+
+==========[ MODULE 573359 ]==========
+EXPORT: A
+   getState
+
+==========[ MODULE 574520 ]==========
+EXPORT: A
+   initialize
+   getMatchingActivity
+
+==========[ MODULE 574560 ]==========
+EXPORT: A
+   initialize
+   getState
+   getGameUpsellDismissal
+   getAllGameUpsellDismissals
+
+==========[ MODULE 576497 ]==========
+EXPORT: casual
+   clone
+   parseDate
+   parse
+EXPORT: strict
+   clone
+   parseDate
+   parse
+
+==========[ MODULE 576705 ]==========
+EXPORT: A
+   initialize
+   getChannelPermissions
+   getGuildPermissions
+   getGuildPermissionProps
+   canAccessMemberSafetyPage
+   canAccessGuildSettings
+   canWithPartialContext
+   can
+   canBasicChannel
+   computePermissions
+   computeBasicPermissions
+   canManageUser
+   getHighestRole
+   isRoleHigher
+   canImpersonateRole
+   getGuildVersion
+   getChannelsVersion
+
+==========[ MODULE 577517 ]==========
+EXPORT: A
+   initialize
+   getWarning
+   shouldFetchToday
+   hasShownModalToday
+   getState
+
+==========[ MODULE 578152 ]==========
+EXPORT: A
+   _initialize
+   _terminate
+   quitAndInstall
+   isNewUpdater
+   canBootstrapNewUpdater
+   handlePostConnectionOpen
+   _requestNewUpdaterBootstrap
+   _emitCallbacks
+
+==========[ MODULE 578623 ]==========
+EXPORT: A
+   initialize
+   shouldDisplayPrompt
+
+==========[ MODULE 580745 ]==========
+EXPORT: A
+   initialize
+   isEditing
+   isEditingAny
+   getEditingTextValue
+   getEditingRichValue
+   getEditingMessageId
+   getEditingMessage
+   getEditActionSource
+
+==========[ MODULE 582388 ]==========
+EXPORT: A
+   getOne
+
+==========[ MODULE 584569 ]==========
+EXPORT: A
+   initialize
+   getDesyncedUserIds
+   getDesyncedVoiceStates
+   getDesyncedParticipants
+
+==========[ MODULE 584777 ]==========
+EXPORT: A
+   initialize
+   getResults
+   hasFriends
+   getSelectedUsers
+   getQuery
+   getState
+
+==========[ MODULE 585250 ]==========
+EXPORT: A
+   handleFocusParticipant
+
+==========[ MODULE 586660 ]==========
+EXPORT: Ay
+   startupLoad
+   load
+   handleMessageCreate
+   handleMessageUpdate
+   handleMessagePreviewsLoaded
+   handleLoadMessagesSuccess
+   handleMessageDelete
+   handleMessageDeleteBulk
+   handleChannelDelete
+   handleGuildDelete
+   resetInMemoryState
+   insertStale
+   upsertOne
+   upsertMany
+   replaceChannel
+   updateOne
+   deleteOne
+   deleteChannel
+   deleteGuild
+
+==========[ MODULE 586774 ]==========
+EXPORT: A
+   initialize
+   getSuggestionCount
+   getSuggestions
+   getSuggestion
+
+==========[ MODULE 587895 ]==========
+EXPORT: A
+   initialize
+   getState
+   _getAllApplications
+   getGuildApplication
+   getGuildApplicationIds
+   getApplication
+   getApplicationByName
+   getApplicationLastUpdated
+   isFetchingApplication
+   isHydrated
+   didFetchingApplicationFail
+   getFetchingOrFailedFetchingIds
+   getAppIdForBotUserId
+
+==========[ MODULE 590180 ]==========
+EXPORT: A
+   initialize
+   isFetchingProduct
+   isProductFetchBackedOff
+   getCategory
+   getProduct
+   getProductsBySkus
+   getProductFetch
+   getProductByStoreListingId
+   getCategoryByStoreListingId
+   getCategoryForProduct
+
+==========[ MODULE 591552 ]==========
+EXPORT: A
+   initialize
+   getOnboardingPromptsForOnboarding
+   getOnboardingPrompts
+   getOnboardingResponses
+   getSelectedOptions
+   getOnboardingResponsesForPrompt
+   getEnabledOnboardingPrompts
+   getDefaultChannelIds
+   getEnabled
+   getOnboardingPrompt
+   isLoading
+   shouldFetchPrompts
+   getPendingResponseOptions
+   ackIdForGuild
+   lastFetchedAt
+   isAdvancedMode
+   getConnections
+   getOnboardingConnections
+
+==========[ MODULE 591566 ]==========
+EXPORT: A
+   initialize
+   getState
+   getLastDismissedAnnouncementModalAt
+   setLastDismissedAnnouncementModalAt
+
+==========[ MODULE 592598 ]==========
+EXPORT: A
+   initialize
+   getInitialOverlayState
+   getState
+   isLimitedInteractionOverrideEnabled
+   isNotificationDisabledBySetting
+   isNotificationDisabled
+   getDisabledNotifications
+   getDisabledSettingByNotificationType
+
+==========[ MODULE 592713 ]==========
+EXPORT: A
+   _initialize
+   _terminate
+
+==========[ MODULE 594061 ]==========
+EXPORT: bW
+   getEditInfo
+   getCurrentValue
+   updateAsync
+   markDirty
+   dispatchChanges
+   saveLastSendTime
+   loadIfUncached
+   loadIfNecessary
+   markDirtyFromMigration
+   markDirtyIfHasPendingChange
+   scheduleSaveFromOfflineEdit
+EXPORT: wc
+   getEditInfo
+   getCurrentValue
+   updateAsync
+   markDirty
+   dispatchChanges
+   saveLastSendTime
+   loadIfUncached
+   loadIfNecessary
+   markDirtyFromMigration
+   markDirtyIfHasPendingChange
+   scheduleSaveFromOfflineEdit
+
+==========[ MODULE 595332 ]==========
+EXPORT: A
+   isChatOpen
+
+==========[ MODULE 595623 ]==========
+EXPORT: Ay
+   initialize
+   getState
+   isInitialized
+
+==========[ MODULE 597643 ]==========
+EXPORT: A
+   initialize
+   getSocket
+   isTryingToConnect
+   isConnected
+   isConnectedOrOverlay
+   lastTimeConnectedChanged
+
+==========[ MODULE 599812 ]==========
+EXPORT: A
+   handleSystemServiceInitialize
+   _terminate
+   handleLogout
+   enableWindowTracking
+   disableWindowTracking
+   handleWindowStateChange
+   getWindowStateDurationsSnapshot
+   peekWindowStateDurations
+   scheduleHeartbeatTracking
+   logHeartbeat
+   processSessionChanges
+
+==========[ MODULE 602350 ]==========
+EXPORT: A
+   isExperimentEnabled
+   handleVoiceStateUpdates
+   handleConnectionResumed
+
+==========[ MODULE 607567 ]==========
+EXPORT: Ay
+   initialize
+   getVoiceStates
+   getAllVoiceStates
+   getVoiceStatesForChannel
+   getVoiceStatesForChannelAlt
+   countVoiceStatesForChannel
+   getVoiceStateVersion
+
+==========[ MODULE 607940 ]==========
+EXPORT: A
+   getSubscriptionGroupListingsForApplicationFetchState
+   getSubscriptionGroupListing
+   getSubscriptionGroupListingForSubscriptionListing
+   getSubscriptionListing
+   getSubscriptionListingsForApplication
+   getEntitlementsForGuildFetchState
+   getSubscriptionListingForPlan
+   getApplicationEntitlementsForGuild
+   getEntitlementsForGuild
+
+==========[ MODULE 608960 ]==========
+EXPORT: A
+   stateWrapper
+   getGuildEmojis
+
+==========[ MODULE 610136 ]==========
+EXPORT: A
+   initialize
+   getGuildIncident
+   getIncidentsByGuild
+   getGuildAlertSettings
+
+==========[ MODULE 614455 ]==========
+EXPORT: A
+   initialize
+   getNativeModule
+
+==========[ MODULE 616356 ]==========
+EXPORT: A
+   initialize
+   getState
+   isSelfStreamHidden
+   getLastActiveStream
+   getAllActiveStreams
+   getAllActiveStreamsForChannel
+   getActiveStreamForStreamKey
+   getActiveStreamForApplicationStream
+   getCurrentUserActiveStream
+   isStreamMarkedFull
+   getActiveStreamForUser
+   getStreamerActiveStreamMetadata
+   getStreamerActiveStreamMetadataForStream
+   getIsActiveStreamPreviewDisabled
+   getAnyStreamForUser
+   getAnyDiscoverableStreamForUser
+   getStreamForUser
+   getRTCStream
+   getAllApplicationStreams
+   getAllApplicationStreamsForChannel
+   getViewerIds
+   getCurrentAppIntent
+   getStreamingState
+
+==========[ MODULE 617617 ]==========
+EXPORT: A
+   initialize
+   getState
+   computeState
+   hasLoaded
+   getFullState
+   getGuildFolders
+   getGuildRecentsDismissedAt
+   getDismissedGuildContent
+   getGuildDismissedContentState
+   getGuildsProto
+   getDefaultGuildThemePreference
+   getGuildThemeSourcePreferenceOverride
+   resolveGuildThemeSourcePreference
+
+==========[ MODULE 619065 ]==========
+EXPORT: A
+   initialize
+   hasChannelData
+   getChannelConversations
+   getConversationForMessage
+   getMessageMetadata
+   getMessage
+   getConversationMetadata
+   getEdgeMarker
+   isPendingFetch
+   isListFetchPending
+   getSelectedConversationId
+   getSelectedConversation
+   getConversationColor
+   getHydratedMessages
+   getHydratedMessageById
+   isConversationFetchPending
+   getConversationFeedbackRating
+
+==========[ MODULE 619921 ]==========
+EXPORT: A
+   initialize
+   getHomeLink
+
+==========[ MODULE 621590 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 624694 ]==========
+EXPORT: A
+   initialize
+   getConnectionStats
+   getLastConnectionStats
+   getStatsHistory
+   getAccumulatedPerformanceStats
+
+==========[ MODULE 625494 ]==========
+EXPORT: _
+   safeDispatch
+   dispatch
+   dispatchToLastSubscribed
+   hasSubscribers
+   _checkSavedDispatches
+   subscribe
+   subscribeOnce
+   resubscribe
+   unsubscribe
+   reset
+   dispatchKeyed
+   subscribeKeyed
+   unsubscribeKeyed
+
+==========[ MODULE 626539 ]==========
+EXPORT: A
+   requestPermissionCore
+   hasPermissionCore
+   asyncify
+   openSettings
+   didHavePermission
+   openAlertModal
+
+==========[ MODULE 629016 ]==========
+EXPORT: A
+   initialize
+   getParty
+   getUserParties
+   getParties
+
+==========[ MODULE 630248 ]==========
+EXPORT: A
+   initialize
+   getState
+   hasPendingUsage
+   getApplicationFrecencyWithoutLoadingLatest
+   getScoreWithoutLoadingLatest
+   getTopApplicationsWithoutLoadingLatest
+
+==========[ MODULE 632789 ]==========
+EXPORT: Ay
+   initialize
+   loadCache
+   canEvictOrphans
+   saveLimit
+   getSaveableChannels
+   takeSnapshot
+
+==========[ MODULE 632847 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 635731 ]==========
+EXPORT: A
+   isArray
+   from
+   fromAsync
+   of
+
+==========[ MODULE 636194 ]==========
+EXPORT: A
+   getSubscriptionGroupListingsForGuildFetchState
+   getDidFetchListingForSubscriptionPlanId
+   getSubscriptionGroupListing
+   getSubscriptionGroupListingsForGuild
+   getSubscriptionGroupListingForSubscriptionListing
+   getSubscriptionListing
+   getSubscriptionListingsForGuild
+   getSubscriptionListingForPlan
+   getSubscriptionSettings
+   getSubscriptionTrial
+   getMonetizationRestrictions
+   getMonetizationRestrictionsFetchState
+   getApplicationIdForGuild
+   getBenefitChannel
+
+==========[ MODULE 636401 ]==========
+EXPORT: A
+   captureStackTrace
+   isError
+
+==========[ MODULE 636537 ]==========
+EXPORT: $F
+   captureStackTrace
+   isError
+EXPORT: oh
+   captureStackTrace
+   isError
+
+==========[ MODULE 638128 ]==========
+EXPORT: A
+   initialize
+   isEnabled
+   hasLearnedWord
+   findLearnedWordIn
+
+==========[ MODULE 639735 ]==========
+EXPORT: A
+   getState
+
+==========[ MODULE 641641 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 642133 ]==========
+EXPORT: A
+   getRoleMemberCount
+   shouldFetch
+
+==========[ MODULE 642529 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 643501 ]==========
+EXPORT: default
+   initialize
+   getUserAgnosticState
+   getDevicesForPlatform
+   getLastSelectedDeviceByPlatform
+   getDevice
+   getFetchingDevices
+   getPendingDeviceCommands
+   getRemoteSessionId
+   getAwaitingRemoteSessionInfo
+
+==========[ MODULE 645582 ]==========
+EXPORT: A
+   _fetch
+
+==========[ MODULE 645619 ]==========
+EXPORT: A
+   initialize
+   getState
+   getStateForGuild
+   shouldFetchCatalogForGuild
+   shouldFetchPowerupsForGuild
+   hasFetchedPowerupCatalog
+   hasFetchedUnlockedPowerups
+
+==========[ MODULE 645959 ]==========
+EXPORT: A
+   initialize
+   getPrivateChannelIds
+   getSortedChannels
+   serializeForOverlay
+
+==========[ MODULE 647106 ]==========
+EXPORT: A
+   handlePossibleCredentialFetch
+   handleLogout
+
+==========[ MODULE 648427 ]==========
+EXPORT: A
+   initialize
+   getState
+   getVoiceChannelHistory
+   getTextChannelHistory
+
+==========[ MODULE 649248 ]==========
+EXPORT: A
+   setPool
+   registerPoolEntry
+   removePoolEntry
+   getPoolEntry
+   subscribeEntries
+   emitEntryChange
+   registerFrameTarget
+   removeFrameTarget
+   reconcile
+   pickWinner
+   background
+   cancelBackground
+   evict
+
+==========[ MODULE 649813 ]==========
+EXPORT: A
+   handleGuildCreate
+   handleChannelCreate
+   handleLogout
+
+==========[ MODULE 650048 ]==========
+EXPORT: A
+   initialize
+   getState
+
+==========[ MODULE 651743 ]==========
+EXPORT: A
+   initialize
+   isLaunchable
+   isLaunchableLoading
+
+==========[ MODULE 651753 ]==========
+EXPORT: A
+   getSearchResults
+   getFetchState
+
+==========[ MODULE 652364 ]==========
+EXPORT: A
+   handleChannelPreload
+
+==========[ MODULE 652676 ]==========
+EXPORT: A
+   initialize
+   hasStorefront
+   getStoreLayout
+   getFetchStatus
+
+==========[ MODULE 652699 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 655116 ]==========
+EXPORT: A
+   initialize
+   hasConnectedAccount
+   getActiveSocketAndDevice
+   getPlayableComputerDevices
+   canPlay
+   getSyncingWith
+   wasAutoPaused
+   getLastPlayedTrackId
+   getTrack
+   getPlayerState
+   shouldShowActivity
+   getActivity
+
+==========[ MODULE 666176 ]==========
+EXPORT: HT
+   getIconURL
+   getWhiteIconURL
+
+==========[ MODULE 670441 ]==========
+EXPORT: casual
+   clone
+   parseDate
+   parse
+EXPORT: strict
+   clone
+   parseDate
+   parse
+
+==========[ MODULE 670474 ]==========
+EXPORT: C
+   create
+   internalBinaryRead
+   internalBinaryWrite
+
+==========[ MODULE 670492 ]==========
+EXPORT: A
+   getVerificationKey
+   getBackupCodes
+   getNonces
+
+==========[ MODULE 670595 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 672722 ]==========
+EXPORT: frameLoop
+   setRAF
+
+==========[ MODULE 674470 ]==========
+EXPORT: dx
+   enableNativeLogger
+
+==========[ MODULE 680646 ]==========
+EXPORT: A
+   initialize
+   getState
+   getGuildIdsForApplication
+   getLastFetchTimeMs
+   getNextFetchRetryTimeMs
+   getFetchState
+
+==========[ MODULE 680649 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 680724 ]==========
+EXPORT: A
+   initialize
+   getPendingRequestForUser
+   isRequestOnCooldown
+
+==========[ MODULE 683760 ]==========
+EXPORT: A
+   initialize
+   getPremiumTypeOverride
+   getPremiumTypeActual
+   getCreatedAtOverride
+   getState
+
+==========[ MODULE 684407 ]==========
+EXPORT: A
+   get
+   isFetching
+   hasError
+   hasSeen
+   isEmpty
+
+==========[ MODULE 685054 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 687829 ]==========
+EXPORT: A
+   _initialize
+   _terminate
+   handlePostConnectionOpen
+   trackPerfAnalytics
+
+==========[ MODULE 689168 ]==========
+EXPORT: A
+   initialize
+   getState
+   getStates
+
+==========[ MODULE 692986 ]==========
+EXPORT: A
+   initialize
+   getState
+   getSelectedSearchContext
+
+==========[ MODULE 695515 ]==========
+EXPORT: A
+   initialize
+   loadCache
+   takeSnapshot
+   getSelectedTeenId
+   getLinkedUsers
+   getLinkTimestamp
+   getRangeStartTimestamp
+   getActionsForDisplayType
+   getTotalForDisplayType
+   getLinkCode
+   getLinkCodeExpiresAt
+   getGuild
+   getSelectedTab
+   getStartId
+   getIsInitialized
+   getAreLinkedUsersProcessed
+   getUserCountry
+   isLoading
+   getTopUserActivities
+   getTopGuildActivities
+   getTotalSpendAmount
+   getTotalSpendCurrency
+   getTotalGiftValue
+   getSpendingLimit
+   getMonthlyPurchases
+   getPurchaseInfo
+   getGiftInfo
+   getAgeGroup
+   canRefetch
+   isCurrentUserInRestrictedHours
+
+==========[ MODULE 696016 ]==========
+EXPORT: nx
+   enableNativeLogger
+
+==========[ MODULE 696451 ]==========
+EXPORT: Ay
+   initialize
+   getMutableAllGuildsAndMembers
+   memberOf
+   getNicknameGuildsMapping
+   getNicknames
+   isMember
+   isGuestOrLurker
+   isCurrentUserGuest
+   getMemberIds
+   getMembers
+   getTrueMember
+   getMember
+   getSelfMember
+   getSelfMemberJoinedAt
+   getCachedSelfMember
+   getNick
+   getCommunicationDisabledUserMap
+   getCommunicationDisabledVersion
+   getPendingRoleUpdates
+   getMemberRoleWithPendingUpdates
+   getMemberVersion
+
+==========[ MODULE 697627 ]==========
+EXPORT: A
+   getPriceTiersFetchStateForGuildAndType
+   getPriceTiersForGuildAndType
+
+==========[ MODULE 697951 ]==========
+EXPORT: A
+   handleChannelCreate
+
+==========[ MODULE 698441 ]==========
+EXPORT: Ay
+   initialize
+   getGuildScheduledEvent
+   getGuildEventCountByIndex
+   getGuildScheduledEventsForGuild
+   getGuildScheduledEventsByIndex
+   getRsvpVersion
+   getRsvp
+   isInterestedInEventRecurrence
+   getUserCount
+   hasUserCount
+   isActive
+   getActiveEventByChannel
+   getUsersForGuildEvent
+
+==========[ MODULE 701785 ]==========
+EXPORT: h
+   getSettings
+   getNewMemberActions
+   getActionForChannel
+   hasMemberAction
+   getResourceChannels
+   getResourceForChannel
+   getIsLoading
+   getWelcomeMessage
+   hasSettings
+   getEnabled
+   getNewMemberAction
+
+==========[ MODULE 707890 ]==========
+EXPORT: A
+   initialize
+   isCallVerified
+   isStreamVerified
+   isUserVerified
+
+==========[ MODULE 710195 ]==========
+EXPORT: A
+   initialize
+   maybeEmitDebugExperimentEvent
+   handleConnectionOpen
+   handleGuildCreate
+
+==========[ MODULE 711014 ]==========
+EXPORT: Ay
+   initialize
+   getGuildsTree
+   getGuildFolders
+   getGuildFolderById
+   getFlattenedGuildIds
+   getFlattenedGuildFolderList
+   getCompatibleGuildFolders
+   getFastListGuildFolders
+   takeSnapshot
+
+==========[ MODULE 711918 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 712687 ]==========
+EXPORT: A
+   isOpen
+   getContextMenu
+   close
+
+==========[ MODULE 713021 ]==========
+EXPORT: Ay
+   initialize
+   getUserAgnosticState
+   getPlaybackRate
+   getPlaybackPosition
+
+==========[ MODULE 713125 ]==========
+EXPORT: Ay
+   shouldShowOnboarding
+   getOnboardingStatus
+   resetOnboardingStatus
+   getCurrentOnboardingStep
+
+==========[ MODULE 713132 ]==========
+EXPORT: A
+   initialize
+   getState
+   getMessage
+   getMessages
+   isLoading
+   isLoaded
+   hasMore
+
+==========[ MODULE 714763 ]==========
+EXPORT: A
+   initialize
+   getState
+   getPersistentCodesEnabled
+   getUploadedKeyVersionsCached
+
+==========[ MODULE 715314 ]==========
+EXPORT: A
+   initialize
+   requiredActions
+   requiredActionsIncludes
+   wasLoginAttemptedInSession
+   getState
+
+==========[ MODULE 715556 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 717125 ]==========
+EXPORT: A
+   initialize
+   isChannelGated
+   isChannelGatedAndVisible
+   isChannelOrThreadParentGated
+
+==========[ MODULE 717470 ]==========
+EXPORT: casual
+   clone
+   parseDate
+   parse
+EXPORT: strict
+   clone
+   parseDate
+   parse
+
+==========[ MODULE 718116 ]==========
+EXPORT: A
+   isFetching
+   getWebhooksForGuild
+   getWebhooksForChannel
+
+==========[ MODULE 720119 ]==========
+EXPORT: l
+   create
+   internalBinaryRead
+   internalBinaryWrite
+
+==========[ MODULE 721932 ]==========
+EXPORT: A
+   fromServer
+
+==========[ MODULE 723176 ]==========
+EXPORT: A
+   initialize
+
+==========[ MODULE 725613 ]==========
+EXPORT: A
+   initialize
+   getStartTime
+   hasRequestedStartTimes
+
+==========[ MODULE 725792 ]==========
+EXPORT: Ay
+   initialize
+   supported
+   enabled
+   releasePickerStream
+   getPickerState
+   getLastPickedContent
+   getLastPickedContentTitle
+   getLastPickedContentPID
+   getStreamStartOptions
+
+==========[ MODULE 728639 ]==========
+EXPORT: gT
+   captureStackTrace
+   isError
+
+==========[ MODULE 730202 ]==========
+EXPORT: A
+   getFetchState
+   getFetchStateForApplication
+   getFetchedAt
+   getFetchedAtForApplication
+   getFetchError
+   getFetchErrorForApplication
+   getCollection
+   getFetchParamsForApplication
+   getCollectionsForApplication
+
+==========[ MODULE 731308 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 731667 ]==========
+EXPORT: A
+   initialize
+   channelNoticePredicate
+
+==========[ MODULE 732071 ]==========
+EXPORT: A
+   handleMessageBecameVisible
+   handleMessageLostVisibility
+   handleMessageListVisibilityChange
+   clearTimer
+   handleChannelSelect
+   drainBuffer
+   bufferViewTrack
+
+==========[ MODULE 732755 ]==========
+EXPORT: A
+   initialize
+   getActivity
+
+==========[ MODULE 733110 ]==========
+EXPORT: default
+   initialize
+   getNewestTokenForApplication
+   getNewestTokens
+   getNewestTokensForNonChildrenApplications
+   getFetchState
+   getFetchStateForApplication
+   getApplicationFetchStateVersion
+
+==========[ MODULE 734057 ]==========
+EXPORT: A
+   initialize
+   hasChannel
+   getBasicChannel
+   getChannel
+   loadAllGuildAndPrivateChannelsFromDisk
+   getChannelIds
+   getMutablePrivateChannels
+   getMutableBasicGuildChannelsForGuild
+   getMutableGuildChannelsForGuild
+   getSortedLinkedChannelsForGuild
+   getSortedPrivateChannels
+   getDMFromUserId
+   getDMChannelFromUserId
+   getMutableDMsByUserIds
+   getDMUserIds
+   getPrivateChannelsVersion
+   getGuildChannelsVersion
+   getAllThreadsForParent
+   getAllThreadsForGuild
+   getInitialOverlayState
+   getDebugInfo
+
+==========[ MODULE 736056 ]==========
+EXPORT: A
+   initialize
+   loadCache
+   takeSnapshot
+   hasRegisteredExperiment
+   getUserExperimentDescriptor
+   getGuildExperimentDescriptor
+   getUserExperimentBucket
+   getGuildExperimentBucket
+   getAllUserExperimentDescriptors
+   getGuildExperiments
+   getLoadedUserExperiment
+   getLoadedGuildExperiment
+   getRecentExposures
+   getRegisteredExperiments
+   getAllExperimentOverrideDescriptors
+   getExperimentOverrideDescriptor
+   getAllExperimentAssignments
+   getSerializedState
+   hasExperimentTrackedExposure
+
+==========[ MODULE 736906 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 737291 ]==========
+EXPORT: LN10
+   abs
+   absoluteValue
+   cmp
+   comparedTo
+   dp
+   decimalPlaces
+   div
+   dividedBy
+   idiv
+   dividedToIntegerBy
+   eq
+   equals
+   exponent
+   gt
+   greaterThan
+   gte
+   greaterThanOrEqualTo
+   isint
+   isInteger
+   isneg
+   isNegative
+   ispos
+   isPositive
+   isZero
+   lt
+   lessThan
+   lte
+   lessThanOrEqualTo
+   log
+   logarithm
+   sub
+   minus
+   mod
+   modulo
+   exp
+   naturalExponential
+   ln
+   naturalLogarithm
+   neg
+   negated
+   add
+   plus
+   sd
+   precision
+   sqrt
+   squareRoot
+   mul
+   times
+   todp
+   toDecimalPlaces
+   toExponential
+   toFixed
+   toint
+   toInteger
+   toNumber
+   pow
+   toPower
+   toPrecision
+   tosd
+   toSignificantDigits
+   toJSON
+   val
+   valueOf
+   toString
+
+==========[ MODULE 741812 ]==========
+EXPORT: A
+   initialize
+   getBlockedUsersForVoiceChannel
+   getIgnoredUsersForVoiceChannel
+
+==========[ MODULE 741961 ]==========
+EXPORT: A
+   initialize
+   getTypingUsers
+   getTypingUsersByGuild
+   isTyping
+   getCustomTypingIndicatorConfig
+
+==========[ MODULE 742023 ]==========
+EXPORT: Ay
+   initialize
+   getUserAgnosticState
+   isVisualRefreshDisabled
+
+==========[ MODULE 742077 ]==========
+EXPORT: A
+   initialize
+
+==========[ MODULE 750128 ]==========
+EXPORT: A
+   getModalState
+
+==========[ MODULE 750385 ]==========
+EXPORT: A
+   initialize
+   getStickerMetadataArrays
+   getStickerById
+   getStickerPack
+   getPremiumPacks
+   isPremiumPack
+   getRawStickersByGuild
+   getAllGuildStickers
+   getAllPackStickers
+   getStickersByGuildId
+
+==========[ MODULE 752755 ]==========
+EXPORT: A
+   getMediaPostEmbed
+   getEmbedFetchState
+   getMediaPostEmbeds
+
+==========[ MODULE 753027 ]==========
+EXPORT: A
+   handlePostConnectionOpen
+   handleAppStateUpdate
+   refresh
+
+==========[ MODULE 753189 ]==========
+EXPORT: A
+   handleMessageCreate
+   handleMessageUpdate
+   _getAuthorizedApplicationIds
+   _trackIfSessionMetadataExists
+
+==========[ MODULE 753738 ]==========
+EXPORT: Nr
+   captureStackTrace
+   isError
+EXPORT: lH
+   captureStackTrace
+   isError
+
+==========[ MODULE 755439 ]==========
+EXPORT: A
+   getLastError
+
+==========[ MODULE 759366 ]==========
+EXPORT: A
+   initialize
+   getState
+   isDismissed
+   getDismissedQuestIds
+
+==========[ MODULE 759532 ]==========
+EXPORT: Ay
+   initialize
+   hasChanges
+
+==========[ MODULE 760751 ]==========
+EXPORT: A
+   initialize
+   getState
+   getDetectableGame
+   searchGamesByName
+   findGame
+   getOfficialGame
+   getGameByApplication
+   isGameInDatabase
+   canFetchDetectableGames
+   canFetchExecutableBlocklist
+   getGameByExecutable
+   shouldBlock
+   getBlockReason
+   maybeTrackApplicationLookupFallthrough
+   trackNameMatchFallback
+   maybeTrackBlock
+   shouldReport
+   markGameReported
+
+==========[ MODULE 761640 ]==========
+EXPORT: Ay
+   initialize
+   getState
+   getSection
+   getSidebarState
+   getGuildSidebarState
+   getCurrentSidebarChannelId
+   getCurrentSidebarMessageId
+   getCurrentSearchContextId
+
+==========[ MODULE 763474 ]==========
+EXPORT: c
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 763827 ]==========
+EXPORT: A
+   initialize
+   getRTCConnection
+   getState
+   isConnected
+   isDisconnected
+   getRemoteDisconnectVoiceChannelId
+   getLastSessionVoiceChannelId
+   setLastSessionVoiceChannelId
+   getGuildId
+   getChannelId
+   getHostname
+   getQuality
+   getPings
+   getAveragePing
+   getLastPing
+   getOutboundLossRate
+   getMediaSessionId
+   getRTCConnectionId
+   getDuration
+   getLastRTCConnectionState
+   getPacketStats
+   getVoiceStateStats
+   getUserVoiceSettingsStats
+   getWasEverMultiParticipant
+   getWasEverRtcConnected
+   getUserIds
+   getJoinVoiceId
+   isUserConnected
+   getSecureFramesState
+   getSecureFramesRosterMapEntry
+   getLastNonZeroRemoteVideoSinkWantsTime
+   getWasMoved
+
+==========[ MODULE 766034 ]==========
+EXPORT: A
+   getCommittedVersions
+   remove
+   handleBackgroundSync
+   handleConnectionOpen
+   handleGuildCreate
+   handleGuildUpdate
+   handleGuildDelete
+   handleGuildRoleChange
+   handleGuildRoleDelete
+   handleGuildEmojisUpdate
+   handleGuildStickersUpdate
+   handleChannelCreate
+   handleChannelUpdates
+   handleChannelDelete
+   resetInMemoryState
+   reset
+   deleteWith
+   updateWith
+   computeLatestVersion
+   commit
+
+==========[ MODULE 767243 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 768953 ]==========
+EXPORT: A
+   initialize
+   getSearchQuery
+   getSearchLoading
+   getSearchResults
+   getHasSearchResults
+
+==========[ MODULE 769765 ]==========
+EXPORT: A
+   initialize
+   getCategories
+
+==========[ MODULE 772680 ]==========
+EXPORT: Ay
+   evaluatePending
+   handleOAuth2TokenCreate
+   handleAuthorizedAppsUpdate
+   handleAccountLinkAuthorizationCompleted
+   handleAppStateUpdate
+
+==========[ MODULE 773371 ]==========
+EXPORT: default
+   initialize
+   isFocusedPidInputLocked
+   isInputLocked
+   DEV_isInputLockedV3
+   DEV_isInputLocked
+   isSupported
+   getAnyGlobalEnabledOverlay
+   getFocusedPID
+   isFocusedPidOutOfProcess
+   isCurrentPidOutOfProcess
+   isReady
+   isCrashed
+   getOverlayPIDStatuses
+
+==========[ MODULE 773669 ]==========
+EXPORT: default
+   initialize
+
+==========[ MODULE 773870 ]==========
+EXPORT: A
+   ensureInitialized
+   registerApplication
+   registerVoiceChannel
+   isUserInVoiceChannel
+   updateActiveHandlers
+   startHandler
+   stopHandler
+   stopAllHandlers
+   getHandlerState
+   _initialize
+   _terminate
+
+==========[ MODULE 774300 ]==========
+EXPORT: A
+   _sendInvite
+   drain
+
+==========[ MODULE 774812 ]==========
+EXPORT: A
+   _initialize
+   _terminate
+   markAsSeen
+   hasSeen
+
+==========[ MODULE 775228 ]==========
+EXPORT: A
+   initialize
+   getState
+   hasGamesInstalledInPath
+   shouldBeInstalled
+   getInstallationPath
+   getLabelFromPath
+
+==========[ MODULE 775602 ]==========
+EXPORT: Ay
+   initialize
+   getUserAgnosticState
+
+==========[ MODULE 776096 ]==========
+EXPORT: A
+   initialize
+   getState
+   getGuildAffinity
+
+==========[ MODULE 776131 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 779185 ]==========
+EXPORT: Ay
+   isFull
+   drain
+   cancelRequest
+   cancelPendingSendRequests
+   clear
+   startQueueMetricTimers
+   cancelQueueMetricTimers
+   createResponseHandler
+   handleSend
+   handleSendAnnouncement
+   handleCommand
+
+==========[ MODULE 780057 ]==========
+EXPORT: A
+   initialize
+   isInProgress
+
+==========[ MODULE 781609 ]==========
+EXPORT: A
+   updateSoundpack
+   updateRingtone
+
+==========[ MODULE 783592 ]==========
+EXPORT: A
+   initialize
+   getNowPlaying
+   getUserGame
+
+==========[ MODULE 783791 ]==========
+EXPORT: Ay
+   initialize
+   getMessages
+   hasPendingSettingsRequest
+   isThinking
+   hasLoadedHistory
+   getFinishedAt
+   getProjectUsage
+   getThinkingActivity
+   isCompacting
+   getSidebarWidth
+   getActivityOrderedProjectIds
+   isAnyThinking
+
+==========[ MODULE 787301 ]==========
+EXPORT: A
+   initialize
+   getReactiveCheckStatus
+   getReactiveCheckMiss
+   getReactiveCheckPassed
+   shouldCallReactiveCheck
+
+==========[ MODULE 787392 ]==========
+EXPORT: A
+   initialize
+   getState
+   getKeyTrustedAt
+   isKeyVerified
+   getUserIds
+   getUserVerifiedKeys
+
+==========[ MODULE 794383 ]==========
+EXPORT: A
+   initialize
+   getStream
+
+==========[ MODULE 794400 ]==========
+EXPORT: v
+   captureStackTrace
+   isError
+
+==========[ MODULE 797164 ]==========
+EXPORT: A
+   _initialize
+
+==========[ MODULE 797632 ]==========
+EXPORT: A
+   getSurvey
+
+==========[ MODULE 800121 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 800828 ]==========
+EXPORT: A
+   initialize
+   getPendingIncomingCount
+   getPendingOutgoingCount
+   getGameFriendCount
+   getGameFriendsForApplication
+   getGameRelationshipsForUser
+   getGameRelationshipsForUserByType
+   getGameFriendsForUser
+   getGameRelationshipCount
+   getGameRelationships
+   getGameRelationshipsByType
+   getGameRelationshipsVersion
+
+==========[ MODULE 802958 ]==========
+EXPORT: A
+   initialize
+   getMemberCount
+   getMemberIdsPreview
+   getInitialOverlayState
+
+==========[ MODULE 803224 ]==========
+EXPORT: A
+   initialize
+   getUserAgnosticState
+   getDesktopType
+   getTTSType
+   getDisabledSounds
+   getDisableAllSounds
+   getDisableUnreadBadge
+   getNotifyMessagesInSelectedChannel
+   isSoundDisabled
+
+==========[ MODULE 803301 ]==========
+EXPORT: A
+   getStreamId
+   getUserStreamData
+   getTimedoutVideos
+   getTimedoutVideo
+
+==========[ MODULE 803805 ]==========
+EXPORT: Do
+   create
+   internalBinaryRead
+   binaryReadMap1
+   internalBinaryWrite
+EXPORT: F1
+   create
+   internalBinaryRead
+   binaryReadMap1
+   internalBinaryWrite
+EXPORT: Q8
+   create
+   internalBinaryRead
+   binaryReadMap1
+   internalBinaryWrite
+EXPORT: Qn
+   create
+   internalBinaryRead
+   internalBinaryWrite
+EXPORT: Zc
+   create
+   internalBinaryRead
+   binaryReadMap1
+   internalBinaryWrite
+EXPORT: aw
+   create
+   internalBinaryRead
+   internalBinaryWrite
+EXPORT: cC
+   create
+   internalBinaryRead
+   binaryReadMap1
+   internalBinaryWrite
+EXPORT: gW
+   create
+   internalBinaryRead
+   internalBinaryWrite
+EXPORT: kc
+   create
+   internalBinaryRead
+   binaryReadMap1
+   internalBinaryWrite
+EXPORT: tC
+   create
+   internalBinaryRead
+   internalBinaryWrite
+EXPORT: tQ
+   create
+   internalBinaryRead
+   internalBinaryWrite
+EXPORT: uz
+   create
+   internalBinaryRead
+   binaryReadMap1
+   internalBinaryWrite
+EXPORT: zT
+   create
+   internalBinaryRead
+   internalBinaryWrite
+
+==========[ MODULE 805332 ]==========
+EXPORT: A
+   getBuilderPreviewApplicationId
+   isBuilderPreviewMobile
+
+==========[ MODULE 807393 ]==========
+EXPORT: A
+   _getMetricWithDefaults
+   increment
+   distribution
+   _flush
+
+==========[ MODULE 808728 ]==========
+EXPORT: Ay
+   initialize
+   getAllGuilds
+   getChannels
+   getFirstChannelOfType
+   getFirstChannel
+   getDefaultChannel
+   getSFWDefaultChannel
+   getSelectableChannelIds
+   getSelectableChannels
+   getVocalChannelIds
+   getDirectoryChannelIds
+   hasSelectableChannel
+   hasElevatedPermissions
+   hasChannels
+   hasCategories
+   getTextChannelNameDisambiguations
+
+==========[ MODULE 809871 ]==========
+EXPORT: A
+   _initialize
+   _terminate
+   showRPCDisconnectErrorUI
+
+==========[ MODULE 811967 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 813827 ]==========
+EXPORT: u
+   create
+   internalBinaryRead
+   internalBinaryWrite
+
+==========[ MODULE 814201 ]==========
+EXPORT: A
+   getGameServers
+   getMaxServers
+
+==========[ MODULE 820431 ]==========
+EXPORT: A
+   handleChannelPreload
+
+==========[ MODULE 821102 ]==========
+EXPORT: A
+   getAnalyticsID
+   getQuery
+   getResultQuery
+   getResultItems
+   getTrendingCategories
+   getSelectedFormat
+   getSuggestions
+   getTrendingSearchTerms
+
+==========[ MODULE 821925 ]==========
+EXPORT: A
+   getFetchState
+   getFetchStateForSku
+   getFetchedAt
+   getFetchedAtForSku
+   getFetchError
+   getFetchErrorForSku
+   getProduct
+   getProductsForSku
+
+==========[ MODULE 822074 ]==========
+EXPORT: A
+   getState
+   initialize
+   allSummaries
+   topSummaries
+   summaries
+   shouldShowTopicsBar
+   findSummary
+   selectedSummary
+   summaryFeedback
+   isFetching
+   status
+   shouldFetch
+   channelAffinities
+   channelAffinitiesById
+   channelAffinitiesStatus
+   shouldFetchChannelAffinities
+   defaultChannelIds
+   visibleSummaryIndex
+
+==========[ MODULE 822151 ]==========
+EXPORT: A
+   handleClipsSignalCreated
+   handleMlDetection
+   handleSpeaking
+   handleSoundboardPlayStart
+   handleSoundboardPlayEnd
+   isSignalEnabled
+   calculateAutoclipRequest
+   adjustTrimForRms
+   process
+   clear
+   enqueueSessionTransition
+   clearAsync
+   unscheduleClip
+   canScheduleClipCandidate
+   scheduleClip
+   handleVoiceChannelSelect
+   handleVoiceChannelSelectAsync
+   handleRunningGamesChange
+   handleRunningGamesChangeAsync
+   stashDeciderData
+   debugCreateRankableLaughterClip
+   processClipCandidates
+   handleSettingsUpdate
+
+==========[ MODULE 823441 ]==========
+EXPORT: A
+   createFromServer
+   supportsOutOfProcessOverlay
+
+==========[ MODULE 823448 ]==========
+EXPORT: A
+   getIsInitialFetchComplete
+   getIsFetchingCounts
+   getCounts
+
+==========[ MODULE 823854 ]==========
+EXPORT: A
+   initialize
+   getProgressForUserId
+   getTrackingEntryForUserId
+   hasVoiceDareForUserId
+   getProgressForDareId
+   getActiveDareForUserId
+
+==========[ MODULE 824120 ]==========
+EXPORT: one
+   add
+   plus
+   subtract
+   minus
+   negate
+   abs
+   multiply
+   times
+   square
+   divmod
+   divide
+   over
+   remainder
+   mod
+   pow
+   modPow
+   compareAbs
+   compare
+   compareTo
+   equals
+   eq
+   notEquals
+   neq
+   greater
+   gt
+   lesser
+   lt
+   greaterOrEquals
+   geq
+   lesserOrEquals
+   leq
+   isEven
+   isOdd
+   isPositive
+   isNegative
+   isUnit
+   isZero
+   isDivisibleBy
+   isPrime
+   isProbablePrime
+   modInv
+   next
+   prev
+   shiftLeft
+   shiftRight
+   not
+   and
+   or
+   xor
+   bitLength
+   toArray
+   toString
+   toJSON
+   toJSNumber
+   valueOf
+EXPORT: zero
+   add
+   plus
+   subtract
+   minus
+   negate
+   abs
+   multiply
+   times
+   square
+   divmod
+   divide
+   over
+   remainder
+   mod
+   pow
+   modPow
+   compareAbs
+   compare
+   compareTo
+   equals
+   eq
+   notEquals
+   neq
+   greater
+   gt
+   lesser
+   lt
+   greaterOrEquals
+   geq
+   lesserOrEquals
+   leq
+   isEven
+   isOdd
+   isPositive
+   isNegative
+   isUnit
+   isZero
+   isDivisibleBy
+   isPrime
+   isProbablePrime
+   modInv
+   next
+   prev
+   shiftLeft
+   shiftRight
+   not
+   and
+   or
+   xor
+   bitLength
+   toArray
+   toString
+   toJSON
+   toJSNumber
+   valueOf
+EXPORT: minusOne
+   add
+   plus
+   subtract
+   minus
+   negate
+   abs
+   multiply
+   times
+   square
+   divmod
+   divide
+   over
+   remainder
+   mod
+   pow
+   modPow
+   compareAbs
+   compare
+   compareTo
+   equals
+   eq
+   notEquals
+   neq
+   greater
+   gt
+   lesser
+   lt
+   greaterOrEquals
+   geq
+   lesserOrEquals
+   leq
+   isEven
+   isOdd
+   isPositive
+   isNegative
+   isUnit
+   isZero
+   isDivisibleBy
+   isPrime
+   isProbablePrime
+   modInv
+   next
+   prev
+   shiftLeft
+   shiftRight
+   not
+   and
+   or
+   xor
+   bitLength
+   toArray
+   toString
+   toJSON
+   toJSNumber
+   valueOf
+
+==========[ MODULE 824492 ]==========
+EXPORT: A
+   initialize
+   didAgree
+   getState
+   getUserAgnosticState
+
+==========[ MODULE 825755 ]==========
+EXPORT: A
+   clearRedirectedPaymentSourceId
+   getCreditCardInfo
+   getBillingAddressInfo
+
+==========[ MODULE 832163 ]==========
+EXPORT: A
+   initialize
+   getStorefrontData
+   getStorefrontDataForApplicationId
+   getLoadedStorefrontApplicationIds
+   getStorefrontFetchState
+   getSkuAssets
+   getStorefrontMetadata
+   getStorefrontEntries
+   getStorefrontById
+   getPreviewStorefrontId
+   getStorefrontState
+   getAnnouncement
+   getConfig
+   getConfigForApplicationId
+   getApplicationIdFromDetectableId
+   getDetectableIdsToApplicationIds
+   getGuildIdFromApplicationId
+   getApplicationIdFromGuildId
+   getConfigFetchState
+   getStorefrontApplicationIds
+   getStorefrontGuildIds
+   getSKUEligibility
+   getSKUEligibilityEntry
+   getNormalizedSKUEligibility
+   getAnnouncementModalContentConfig
+
+==========[ MODULE 832505 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 834942 ]==========
+EXPORT: A
+   initialize
+   getCheck
+   canChatInGuild
+
+==========[ MODULE 835498 ]==========
+EXPORT: A
+   initialize
+   reset
+   track
+   isSampling
+   startSampling
+   stopSampling
+   getState
+   getDeviceIdsSortedByFrecency
+   getUsageStats
+
+==========[ MODULE 836602 ]==========
+EXPORT: A
+   getFormState
+   getErrors
+   getPendingChanges
+   getTryItOutChanges
+   hasTryItOutChanges
+   hasUnsavedChanges
+   showNotice
+   canSubmit
+
+==========[ MODULE 836753 ]==========
+EXPORT: A
+   _initialize
+   _terminate
+   handleOpenModal
+   handleCloseModal
+
+==========[ MODULE 837011 ]==========
+EXPORT: A
+   getProfile
+   getFetchStatus
+   getLastSyncTimestamp
+   getNextFetchAllowedAt
+   getIsUpdating
+   getErrorCode
+
+==========[ MODULE 837015 ]==========
+EXPORT: A
+   fromServer
+
+==========[ MODULE 839067 ]==========
+EXPORT: A
+   getCurrentPath
+   getCurrentRoute
+   reset
+
+==========[ MODULE 842144 ]==========
+EXPORT: A
+   getSettings
+   getControlledSettings
+   hasSettingsForUser
+   getConsents
+   hasConsented
+
+==========[ MODULE 844944 ]==========
+EXPORT: A
+   initialize
+   getRequest
+   getRequests
+   getSubmittedGuildJoinRequestTotal
+   isFetching
+   hasFetched
+   getSelectedApplicationTab
+   getSelectedSortOrder
+   getSelectedGuildJoinRequest
+   getRequestsForUser
+
+==========[ MODULE 849455 ]==========
+EXPORT: casual
+   clone
+   parseDate
+   parse
+EXPORT: strict
+   clone
+   parseDate
+   parse
+
+==========[ MODULE 851746 ]==========
+EXPORT: A
+   initialize
+   checkAndFetchReferralsRemaining
+   getReferralsRemaining
+   getSentUserIds
+   isFetchingReferralsRemaining
+   getRelevantUserTrialOffer
+   isResolving
+   getEligibleUsers
+   getFetchingEligibleUsers
+   getNextIndexOfEligibleUsers
+   getIsEligibleToSendReferrals
+   getHasEligibleFriends
+   getRefreshAt
+   getAllRelevantReferralTrialOffers
+   getRecipientStatus
+   getReminderStateId
+
+==========[ MODULE 853145 ]==========
+EXPORT: A
+   getState
+   initialize
+   getPendingReply
+   getPendingReplyActionSource
+
+==========[ MODULE 855522 ]==========
+EXPORT: A
+   updateMessagesForExperiment
+   setLocale
+   setUpdateRules
+   getLanguages
+   getAvailableLocales
+   getLocale
+   getLocaleInfo
+   getDefaultLocale
+   _loadMessagesForLocale
+   _applyMessagesForLocale
+   _findMessages
+   _fetchMessages
+
+==========[ MODULE 857071 ]==========
+EXPORT: A
+   initialize
+   lurkingGuildIds
+   mostRecentLurkedGuildId
+   isLurking
+   getLurkingSourceForGuild
+   getLoadId
+
+==========[ MODULE 859703 ]==========
+EXPORT: A
+   isFetchingQuestPreview
+   getQuestPreviewOverride
+   getFetchQuestPreviewError
+   isEnrolling
+   isClaimingReward
+   isFetchingRewardCode
+   isDismissingContent
+   getRewardCode
+   getRewards
+   getStreamHeartbeatFailure
+   getQuest
+   getQuestConfig
+   isProgressingOnDesktop
+   selectedTaskPlatform
+   getOptimisticProgress
+   getExpiredQuestsMap
+   isQuestExpired
+   getQuestLoadedViaPreview
+   isFetchingEarnedQuestToDeliverByPlacement
+
+==========[ MODULE 860071 ]==========
+EXPORT: A
+   initialize
+   requestMember
+   getDebugState
+
+==========[ MODULE 860323 ]==========
+EXPORT: casual
+   clone
+   parseDate
+   parse
+EXPORT: strict
+   clone
+   parseDate
+   parse
+EXPORT: hant
+   clone
+   parseDate
+   parse
+
+==========[ MODULE 860511 ]==========
+EXPORT: customElements
+   define
+   get
+   getName
+   upgrade
+   whenDefined
+   initialize
+EXPORT: history
+   back
+   forward
+   go
+   pushState
+   replaceState
+EXPORT: navigation
+   back
+   entries
+   forward
+   navigate
+   reload
+   traverseTo
+   updateCurrentEntry
+EXPORT: navigator
+   getGamepads
+   javaEnabled
+   sendBeacon
+   vibrate
+   adAuctionComponents
+   runAdAuction
+   canLoadAdAuctionFencedFrame
+   clearAppBadge
+   getBattery
+   getUserMedia
+   requestMIDIAccess
+   requestMediaKeySystemAccess
+   setAppBadge
+   webkitGetUserMedia
+   clearOriginJoinedAdInterestGroups
+   createAuctionNonce
+   joinAdInterestGroup
+   leaveAdInterestGroup
+   updateAdInterestGroups
+   deprecatedReplaceInURN
+   deprecatedURNToURL
+   getInstalledRelatedApps
+   getInterestGroupAdAuctionData
+   registerProtocolHandler
+   unregisterProtocolHandler
+EXPORT: external
+   AddSearchProvider
+   IsSearchProviderInstalled
+EXPORT: clientInformation
+   getGamepads
+   javaEnabled
+   sendBeacon
+   vibrate
+   adAuctionComponents
+   runAdAuction
+   canLoadAdAuctionFencedFrame
+   clearAppBadge
+   getBattery
+   getUserMedia
+   requestMIDIAccess
+   requestMediaKeySystemAccess
+   setAppBadge
+   webkitGetUserMedia
+   clearOriginJoinedAdInterestGroups
+   createAuctionNonce
+   joinAdInterestGroup
+   leaveAdInterestGroup
+   updateAdInterestGroups
+   deprecatedReplaceInURN
+   deprecatedURNToURL
+   getInstalledRelatedApps
+   getInterestGroupAdAuctionData
+   registerProtocolHandler
+   unregisterProtocolHandler
+EXPORT: styleMedia
+   matchMedium
+EXPORT: scheduler
+   postTask
+   yield
+EXPORT: performance
+   clearMarks
+   clearMeasures
+   clearResourceTimings
+   getEntries
+   getEntriesByName
+   getEntriesByType
+   mark
+   measure
+   setResourceTimingBufferSize
+   toJSON
+   now
+EXPORT: trustedTypes
+   createPolicy
+   getAttributeType
+   getPropertyType
+   getTypeMapping
+   isHTML
+   isScript
+   isScriptURL
+EXPORT: crypto
+   getRandomValues
+   randomUUID
+EXPORT: indexedDB
+   cmp
+   databases
+   deleteDatabase
+   open
+EXPORT: crashReport
+   delete
+   initialize
+   set
+EXPORT: cookieStore
+   delete
+   get
+   getAll
+   set
+EXPORT: caches
+   delete
+   has
+   keys
+   match
+   open
+EXPORT: documentPictureInPicture
+   requestWindow
+EXPORT: sharedStorage
+   append
+   clear
+   delete
+   set
+   batchUpdate
+   createWorklet
+   run
+   selectURL
+EXPORT: launchQueue
+   setConsumer
+EXPORT: speechSynthesis
+   cancel
+   getVoices
+   pause
+   resume
+   speak
+EXPORT: __zod_globalRegistry
+   add
+   clear
+   remove
+   get
+   has
+EXPORT: OGVCompat
+   hasTypedArrays
+   hasWebAssembly
+   hasWebAudio
+   hasFlash
+   hasAudio
+   isBlacklisted
+   isSlow
+   isTooSlow
+   supported
+EXPORT: OGVLoader
+   getGlobal
+   defaultBase
+   loadClass
+   loadScript
+   workerProxy
+
+==========[ MODULE 861382 ]==========
+EXPORT: A
+   initialize
+   getActiveCommand
+   getActiveCommandSection
+   getActiveOptionName
+   getActiveOption
+   getPreferredCommandId
+   getOptionStates
+   getOptionState
+   getCommandOrigin
+   getSource
+   getOption
+   getState
+
+==========[ MODULE 861807 ]==========
+EXPORT: A
+   initialize
+   getShouldShowGuardianConnect
+   getState
+
+==========[ MODULE 862292 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 862706 ]==========
+EXPORT: m
+   create
+   internalBinaryRead
+   internalBinaryWrite
+
+==========[ MODULE 863005 ]==========
+EXPORT: A
+   initialize
+   hasActiveJoinedUnreadThreads
+   getActiveUnjoinedThreadsForParent
+   getActiveJoinedThreadsForParent
+   getAllActiveJoinedThreads
+   getActiveJoinedThreadsForGuild
+   getActiveJoinedUnreadThreadsForGuild
+   getActiveJoinedUnreadThreadsForParent
+   getActiveJoinedRelevantThreadsForGuild
+   getActiveJoinedRelevantThreadsForParent
+   getActiveUnjoinedThreadsForGuild
+   getActiveUnjoinedUnreadThreadsForGuild
+   getActiveUnjoinedUnreadThreadsForParent
+   getNewThreadCountsForGuild
+   computeAllActiveJoinedThreads
+   getNewThreadCount
+   getActiveThreadCount
+
+==========[ MODULE 863036 ]==========
+EXPORT: A
+   initialize
+   hasChanges
+   isOpen
+   getSection
+   getInvites
+   showNotice
+   getChannel
+   getFormState
+   getCategory
+   getProps
+
+==========[ MODULE 865116 ]==========
+EXPORT: Ay
+   getUserAgnosticState
+   initialize
+   get
+   enabled
+   allByCategory
+
+==========[ MODULE 868162 ]==========
+EXPORT: A
+   initialize
+   getUserAgnosticState
+
+==========[ MODULE 869003 ]==========
+EXPORT: A
+   _initialize
+   _terminate
+   showErrorModal
+   showLaunchErrorModal
+   showDevShelfOverrideEnabled
+   leaveActivity
+   hidePIPEmbed
+   releaseWebView
+
+==========[ MODULE 869014 ]==========
+EXPORT: A
+   _initialize
+   _terminate
+   getLastRAFCallbackReason
+   handleUpdateOverlayMethod
+   handleWindowStateChage
+   handleOverlayRenderDebugMode
+
+==========[ MODULE 869146 ]==========
+EXPORT: A
+   initialize
+   getWindow
+   getWindowState
+   getWindowKeys
+   getWindowOpen
+   getIsAlwaysOnTop
+   getWindowFocused
+   getWindowVisible
+   getState
+   isWindowFullyInitialized
+   isWindowFullScreen
+   unmountWindow
+
+==========[ MODULE 869968 ]==========
+EXPORT: A
+   getIsTargeted
+   shouldFetchCheckoutRecovery
+
+==========[ MODULE 870216 ]==========
+EXPORT: A
+   getAnalytics
+   getLayout
+   isFetchingLayout
+   getLayoutFetchError
+
+==========[ MODULE 870391 ]==========
+EXPORT: A
+   initialize
+   getGroups
+   getGroup
+   getGroupIds
+   getUserGroups
+   isGroupEmpty
+   isInitialized
+   getState
+
+==========[ MODULE 870570 ]==========
+EXPORT: A
+   hasAction
+   getAction
+
+==========[ MODULE 871109 ]==========
+EXPORT: A
+   getGuildProductsForGuildFetchState
+   getGuildProduct
+   getGuildProductsForGuild
+   getGuildProductFetchState
+   isGuildProductsCacheExpired
+
+==========[ MODULE 872472 ]==========
+EXPORT: A
+   fromServer
+
+==========[ MODULE 873033 ]==========
+EXPORT: cache
+   clear
+   delete
+   get
+   has
+   set
+
+==========[ MODULE 873298 ]==========
+EXPORT: E
+   create
+   internalBinaryRead
+   internalBinaryWrite
+EXPORT: F1
+   create
+   internalBinaryRead
+   internalBinaryWrite
+EXPORT: GY
+   create
+   internalBinaryRead
+   internalBinaryWrite
+EXPORT: Ju
+   create
+   internalBinaryRead
+   internalBinaryWrite
+EXPORT: KJ
+   create
+   internalBinaryRead
+   binaryReadMap1
+   internalBinaryWrite
+EXPORT: Q0
+   create
+   internalBinaryRead
+   internalBinaryWrite
+EXPORT: TY
+   create
+   internalBinaryRead
+   internalBinaryWrite
+EXPORT: X9
+   create
+   internalBinaryRead
+   internalBinaryWrite
+EXPORT: YW
+   create
+   internalBinaryRead
+   binaryReadMap7
+   internalBinaryWrite
+EXPORT: ak
+   create
+   internalBinaryRead
+   internalBinaryWrite
+EXPORT: nT
+   create
+   internalBinaryRead
+   internalBinaryWrite
+EXPORT: nx
+   create
+   internalBinaryRead
+   binaryReadMap1
+   binaryReadMap12
+   internalBinaryWrite
+EXPORT: oJ
+   create
+   internalBinaryRead
+   internalBinaryWrite
+EXPORT: oP
+   create
+   internalBinaryRead
+   internalBinaryWrite
+EXPORT: te
+   create
+   internalBinaryRead
+   internalBinaryWrite
+EXPORT: uK
+   create
+   internalBinaryRead
+   internalBinaryWrite
+EXPORT: wL
+   create
+   internalBinaryRead
+   internalBinaryWrite
+
+==========[ MODULE 873985 ]==========
+EXPORT: A
+   initialize
+   shouldIncludePreferredRegion
+   getPreferredRegion
+   getPreferredRegions
+   getRegion
+   getUserAgnosticState
+   shouldPerformLatencyTest
+
+==========[ MODULE 874486 ]==========
+EXPORT: A
+   initialize
+   getState
+   getAllUnlockedAchievements
+   getUnlocked
+
+==========[ MODULE 877717 ]==========
+EXPORT: A
+   getHookError
+
+==========[ MODULE 878118 ]==========
+EXPORT: A
+   initialize
+   getPendingAuthorizations
+   deletePendingAuthorization
+   getGloballyDisabledAuthorizationFlows
+
+==========[ MODULE 878317 ]==========
+EXPORT: A
+   handleThreadCreate
+
+==========[ MODULE 879408 ]==========
+EXPORT: A
+   initialize
+   hasPendingBulkBan
+   consumeCompletedBeforeStarted
+
+==========[ MODULE 881520 ]==========
+EXPORT: A
+   initialize
+   getFeedbackConfig
+
+==========[ MODULE 883600 ]==========
+EXPORT: A
+   initialize
+   getChangelog
+   latestChangelogId
+   getChangelogLoadStatus
+   hasLoadedConfig
+   getConfig
+   overrideId
+   lastSeenChangelogId
+   lastSeenChangelogDate
+   getStateForDebugging
+   isLocked
+
+==========[ MODULE 884705 ]==========
+EXPORT: A
+   isTogglesDisabled
+
+==========[ MODULE 885576 ]==========
+EXPORT: A
+   initialize
+   isIdle
+   isAFK
+   getIdleSince
+   getSystemSuspended
+   getSystemLocked
+
+==========[ MODULE 887924 ]==========
+EXPORT: default
+   EventEmitter
+
+==========[ MODULE 888548 ]==========
+EXPORT: CaptchaCancelError
+   captureStackTrace
+   isError
+
+==========[ MODULE 891540 ]==========
+EXPORT: A
+   initialize
+   hasHotspot
+   hasHiddenHotspot
+   getHotspotOverride
+   getState
+
+==========[ MODULE 892118 ]==========
+EXPORT: A
+   fromServer
+
+==========[ MODULE 892842 ]==========
+EXPORT: iQ
+   getLabel
+   getTreatments
+   getCachedEnabled
+EXPORT: FH
+   getLabel
+   getTreatments
+EXPORT: P4
+   getCachedBridgedStoreMode
+   getEnabledFeatureName
+   getLabel
+   getTreatments
+EXPORT: pd
+   getLabel
+   getTreatments
+   getMetricsSampleRate
+   didEmit
+   shouldCollectMetrics
+
+==========[ MODULE 894539 ]==========
+EXPORT: A
+   nativeMuteChanged
+   updateNativeMute
+
+==========[ MODULE 894992 ]==========
+EXPORT: A
+   _terminate
+
+==========[ MODULE 898461 ]==========
+EXPORT: A
+   fromServer
+
+==========[ MODULE 900019 ]==========
+EXPORT: A
+   getFpMessageInfo
+   getChannelFpInfo
+   canSubmitFpReport
+
+==========[ MODULE 900210 ]==========
+EXPORT: A
+   getReactionPickerAnimation
+   getEffectForEmojiId
+
+==========[ MODULE 907926 ]==========
+EXPORT: A
+   handleStats
+   handlePostConnectionOpen
+
+==========[ MODULE 911411 ]==========
+EXPORT: A
+   initialize
+   isSubscribed
+
+==========[ MODULE 912630 ]==========
+EXPORT: A
+   initialize
+
+==========[ MODULE 913122 ]==========
+EXPORT: eR
+   captureStackTrace
+   isError
+
+==========[ MODULE 913765 ]==========
+EXPORT: A
+   _initialize
+   _terminate
+   showKeyboardShortcuts
+   hideKeyboardShortcuts
+
+==========[ MODULE 915725 ]==========
+EXPORT: Ay
+   initialize
+   getClips
+   getClipById
+   getClipByRemoteId
+   getClipCandidates
+   getClipCandidateById
+   getUserAgnosticState
+   getSettings
+   getEnableAutoclipping
+   hasUserSetAutoclippingSettings
+   getLastClipsSession
+   getCurrentClipsSession
+   getHistoricalClipsSessionById
+   devSetLastClipsSession
+   getClipsWarningShown
+   getHardwareClassification
+   getHardwareClassificationForDecoupled
+   getHardwareClassificationVersion
+   getIsAtMaxSaveClipOperations
+   getLastClipsError
+   isClipsEnabledForUser
+   isVoiceRecordingAllowedForUser
+   isViewerClippingAllowedForUser
+   hasClips
+   hasTakenDecoupledClip
+   canShowReminders
+   getNewClipIds
+   isClipExporting
+   getExportingClipIds
+   isAutoStashEnabled
+   wasClipSharedInChannel
+
+==========[ MODULE 915968 ]==========
+EXPORT: A
+   handleAuthenticatorDelete
+   handleWebAuthnCredentialsLoaded
+   handleCurrentUserUpdate
+
+==========[ MODULE 917878 ]==========
+EXPORT: A
+   recordChannelFetchStart
+   recordChannelFetchedLocal
+   recordChannelFetchedNetwork
+
+==========[ MODULE 918467 ]==========
+EXPORT: A
+   getFetchState
+   getFetchedAt
+   getPromotionsForApplication
+
+==========[ MODULE 919638 ]==========
+EXPORT: A
+   initialize
+   isUnavailable
+
+==========[ MODULE 921955 ]==========
+EXPORT: A
+   initialize
+   getActivity
+   getQuery
+   getResults
+
+==========[ MODULE 923495 ]==========
+EXPORT: A
+   getRegionalFeatureConfig
+   isFeatureAgeGated
+   isSettingTeenByDefault
+   hasAgeGatedFeatures
+   hasTeenDefaults
+   shouldCollectAppStoreSignal
+   getUserCountryCode
+
+==========[ MODULE 924985 ]==========
+EXPORT: A
+   initialize
+   getState
+   isCollapsed
+   getCollapsedCategories
+
+==========[ MODULE 929895 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 929921 ]==========
+EXPORT: A
+   initialize
+   getState
+
+==========[ MODULE 930839 ]==========
+EXPORT: A
+   initialize
+
+==========[ MODULE 931480 ]==========
+EXPORT: A
+   initialize
+   getMessages
+
+==========[ MODULE 931664 ]==========
+EXPORT: A
+   getStickerPreview
+
+==========[ MODULE 931959 ]==========
+EXPORT: A
+   initialize
+   getState
+   hasPendingUsage
+
+==========[ MODULE 933958 ]==========
+EXPORT: Ay
+   initialize
+   getState
+   getSelfEmbeddedActivityForChannel
+   getSelfEmbeddedActivityForLocation
+   getSelfEmbeddedActivities
+   getEmbeddedActivitiesForGuild
+   getEmbeddedActivitiesForChannel
+   getEmbeddedActivitiesForLocation
+   getEmbeddedActivitiesForGuildIncludingHidden
+   getEmbeddedActivitiesForChannelIncludingHidden
+   getEmbeddedActivitiesForLocationIncludingHidden
+   getEmbeddedActivitiesByChannel
+   getEmbeddedActivityDurationMs
+   isLaunchingActivity
+   getShelfActivities
+   getShelfFetchStatus
+   shouldFetchShelf
+   getOrientationLockStateForApp
+   getPipOrientationLockStateForApp
+   getGridOrientationLockStateForApp
+   getLayoutModeForApp
+   getConnectedActivityChannelId
+   getConnectedActivityLocation
+   getActivityPanelMode
+   getFocusedLayout
+   getCurrentEmbeddedActivity
+   isProxyTicketRefreshing
+   getEmbeddedActivityForUserId
+   hasActivityEverBeenLaunched
+   getLaunchState
+   getLaunchStates
+   getActivityPopoutWindowLayout
+
+==========[ MODULE 936449 ]==========
+EXPORT: A
+   handleInit
+   handleLogout
+   handleChannelSelect
+   handleChannelCreate
+   handleChannelDelete
+   handleChannelUpdates
+   handleGuildCreateOrUpdate
+   handleGuildDelete
+   handleThreadUpdate
+   handleUserUpdate
+   handleRelationshipChange
+
+==========[ MODULE 937427 ]==========
+EXPORT: A
+   getPromotionIdOverride
+
+==========[ MODULE 938764 ]==========
+EXPORT: A
+   getSearchState
+   getSearchResults
+   shouldFetch
+
+==========[ MODULE 940107 ]==========
+EXPORT: f
+   captureStackTrace
+   isError
+
+==========[ MODULE 943577 ]==========
+EXPORT: A
+   initialize
+
+==========[ MODULE 945810 ]==========
+EXPORT: Bt
+   initialize
+   maybeEmitDebugExperimentEvent
+   handleConnectionOpen
+   handleGuildCreate
+
+==========[ MODULE 945886 ]==========
+EXPORT: A
+   initialize
+   getState
+   getCollapsed
+   isCollapsed
+
+==========[ MODULE 947094 ]==========
+EXPORT: A
+   initialize
+   hasHidden
+   getState
+
+==========[ MODULE 952818 ]==========
+EXPORT: Ay
+   initialize
+   getVisibleGame
+   getCurrentGameForAnalytics
+   getCurrentNonGameForAnalytics
+   getVisibleRunningGames
+   getRunningGames
+   getDebugRunningGame
+   getDetectionDebug
+   getRunningNonGames
+   getRunningDiscordApplicationIds
+   getRunningVerifiedApplicationIds
+   getGameForPID
+   getGameForName
+   getGameOrTransformedSubgameForPID
+   getLauncherForPID
+   getOverlayOptionsForPID
+   shouldElevateProcessForPID
+   shouldContinueWithoutElevatedProcessForPID
+   canCollectExecutableFingerprintsForRunningGames
+   getCandidateGames
+   isGamesSeenLoaded
+   isGameSeen
+   getGamesSeen
+   getSeenGameByName
+   isObservedAppRunning
+   getOverrides
+   getOverrideForGame
+   getOverlayEnabledForGame
+   getGameOverlayStatus
+   getObservedAppNameForWindow
+   isDetectionEnabled
+   addExecutableTrackedByAnalytics
+   getSystemServiceStatus
+   isSystemServiceInitialized
+
+==========[ MODULE 953384 ]==========
+EXPORT: A
+   initialize
+   getState
+   getById
+   canFetch
+
+==========[ MODULE 953584 ]==========
+EXPORT: Ay
+   isVideoStatsEnabled
+   toggleVideoStats
+   setVideoStats
+   clearVideoStats
+
+==========[ MODULE 955298 ]==========
+EXPORT: messagesLoader
+   withDebugValues
+   fallbackWith
+   get
+   getMessageValue
+   _loadLocale
+   emitChange
+   onChange
+   isLocaleLoading
+   isLocaleLoaded
+   waitForLocaleLoaded
+   waitForDefaultLocale
+
+==========[ MODULE 956467 ]==========
+EXPORT: A
+   createRequestPayload
+   createWithPayload
+   create
+
+==========[ MODULE 956703 ]==========
+EXPORT: A
+   initialize
+   getKnownReactorIds
+   getReactions
+
+==========[ MODULE 958340 ]==========
+EXPORT: A
+   getGuild
+   isGuildFetching
+   getGuildOrStatus
+   getVersion
+
+==========[ MODULE 958590 ]==========
+EXPORT: A
+   getInvite
+   getFriendInvite
+   getFriendInvitesFetching
+   canRevokeFriendInvite
+   getReceivedInstallationIdForInviteCode
+
+==========[ MODULE 959129 ]==========
+EXPORT: v
+   create
+   internalBinaryRead
+   internalBinaryWrite
+
+==========[ MODULE 960755 ]==========
+EXPORT: A
+   initialize
+   getGuild
+   getGuildWithoutChangingGuildActionRows
+   recentsChannelCount
+
+==========[ MODULE 963307 ]==========
+EXPORT: Ay
+   initialize
+   getProps
+   getRows
+
+==========[ MODULE 965407 ]==========
+EXPORT: A
+   getOptions
+
+==========[ MODULE 966833 ]==========
+EXPORT: A
+   initialize
+   getPins
+
+==========[ MODULE 966846 ]==========
+EXPORT: A
+   initialize
+   getQueuePosition
+   isCorruptInstallation
+
+==========[ MODULE 967198 ]==========
+EXPORT: A
+   initialize
+   getState
+   getGuildId
+   getLastSelectedGuildId
+   getLastSelectedTimestamp
+
+==========[ MODULE 969043 ]==========
+EXPORT: A
+   initialize
+   isLoading
+   getMessage
+
+==========[ MODULE 970048 ]==========
+EXPORT: A
+   updateActiveErrors
+   handleReportAVError
+
+==========[ MODULE 970278 ]==========
+EXPORT: A
+   initialize
+   isActive
+   getThreadsForGuild
+   getThreadsForParent
+   hasThreadsForChannel
+   forEachGuild
+   hasLoaded
+
+==========[ MODULE 972786 ]==========
+EXPORT: A
+   initialize
+   getOwnedProjects
+   getProject
+   findProjectByApplicationId
+   getSharedProjects
+   getIntegrationStatus
+   getSelectedProjectId
+   getLogs
+   getProjectsFetchState
+   hasFetchedGuildProjects
+   isVibegrationsProjectApplication
+
+==========[ MODULE 973117 ]==========
+EXPORT: n
+   get
+   set
+   remove
+   clear
+   stringify
+   asyncGetRaw
+   getRaw
+   setRaw
+   getAfterRefresh
+
+==========[ MODULE 973153 ]==========
+EXPORT: A
+   initialize
+   isLatest
+   isLocalFetchNeeded
+   message
+   data
+   handleOneGuildCreate
+   handleConnectionOpen
+   handleGuildCreate
+   handleGuildDelete
+   handleMessageCreate
+   handleMessageDelete
+   handleMessageUpdate
+   handleThreadListSync
+   handleLoadMessagesSuccess
+   handleLocalMessagesLoaded
+   handleMessagePreviewsLoaded
+   handleMessagePreviewsLocallyLoaded
+   handleLogout
+
+==========[ MODULE 976910 ]==========
+EXPORT: A
+   hasFetchedCredentials
+   getCredentials
+   hasPendingRegisterTrigger
+
+==========[ MODULE 977936 ]==========
+EXPORT: casual
+   clone
+   parseDate
+   parse
+EXPORT: strict
+   clone
+   parseDate
+   parse
+
+==========[ MODULE 977997 ]==========
+EXPORT: A
+   getAllVoiceStates
+   getVoiceStateVersion
+   getVoiceStates
+   getVoiceStatesForChannel
+   getVideoVoiceStatesForChannel
+   getVoiceState
+   getDiscoverableVoiceState
+   getVoiceStateForChannel
+   getVoiceStateForUser
+   getDiscoverableVoiceStateForUser
+   getVoiceStateForSession
+   getUserVoiceChannelId
+   getCurrentClientVoiceChannelId
+   getUsersWithVideo
+   isCurrentClientInVoiceChannel
+   isInChannel
+   hasVideo
+   getVoicePlatformForChannel
+
+==========[ MODULE 978656 ]==========
+EXPORT: s
+   create
+   internalBinaryRead
+   internalBinaryWrite
+
+==========[ MODULE 978884 ]==========
+EXPORT: TimeoutError
+   captureStackTrace
+   isError
+
+==========[ MODULE 982240 ]==========
+EXPORT: Ay
+   initialize
+   getBadges
+   hasCatalogFor
+   isCatalogStaleFor
+   hasCatalogFetchErrorFor
+   getBadgeById
+   getSingleRequirementProgress
+   getCurrentTier
+   getObtainedAt
+   getNextTier
+   getRemainingToNextTier
+
+==========[ MODULE 986630 ]==========
+EXPORT: A
+   fromServer
+EXPORT: x
+   fromServer
+   fromStorefrontProductRecord
+
+==========[ MODULE 989837 ]==========
+EXPORT: A
+   initialize
+   shouldShowPopup
+   shouldShowModal
+   entrypoint
+   lastShownEntrypoint
+   activeViewType
+   activeChannelId
+   closeReason
+   initialState
+
+==========[ MODULE 991023 ]==========
+EXPORT: X
+   create
+   internalBinaryRead
+   binaryReadMap2
+   internalBinaryWrite
+
+==========[ MODULE 992250 ]==========
+EXPORT: A
+   initialize
+   isVisible
+
+==========[ MODULE 994372 ]==========
+EXPORT: casual
+   clone
+   parseDate
+   parse
+EXPORT: strict
+   clone
+   parseDate
+   parse
+
+==========[ MODULE 994500 ]==========
+EXPORT: A
+   initialize
+   isFriend
+   isBlockedOrIgnored
+   isBlockedOrIgnoredForMessage
+   isBlocked
+   isBlockedForMessage
+   isIgnored
+   isIgnoredForMessage
+   isUnfilteredPendingIncoming
+   getPendingCount
+   getSpamCount
+   getPendingIgnoredCount
+   getOutgoingCount
+   getFriendCount
+   getRelationshipCount
+   getMutableRelationships
+   getVersion
+   isSpam
+   getRelationshipType
+   getNickname
+   getSince
+   getSinces
+   getNote
+   getFriendIDs
+   getBlockedIDs
+   getIgnoredIDs
+   getBlockedOrIgnoredIDs
+   getOriginApplicationId
+   isStranger
+
+==========[ MODULE 997187 ]==========
+EXPORT: A
+   getEmailSettings
+
+==========[ MODULE 998921 ]==========
+EXPORT: A
+   handleConnection
