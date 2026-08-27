@@ -70,7 +70,7 @@ const url = URL.createObjectURL(blob);
 
 Object.assign(document.createElement("a"), {
   href: url,
-  download: "discord-webpack-prototypes.txt"
+  download: "webpack-prototypes.txt"
 }).click();
 
 URL.revokeObjectURL(url);
